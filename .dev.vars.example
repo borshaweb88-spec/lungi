@@ -1,0 +1,2 @@
+ADMIN_BOOTSTRAP_KEY=replace-with-a-long-random-local-secret
+ADMIN_SESSION_SECRET=replace-with-a-different-long-random-local-secret

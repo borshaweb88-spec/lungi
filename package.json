@@ -1,0 +1,21 @@
+{
+  "name": "nawab-loom-store",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pages:dev": "wrangler pages dev dist"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "wrangler": "^4.0.0"
+  }
+}
