@@ -24,16 +24,16 @@
 .contact-widget .rail-wa{color:#17834e}.contact-widget .rail-fb{color:#1877f2}.contact-widget .rail-ig{color:#c13584}.contact-widget .rail-call{color:#b28a3e}
 .product-page{max-width:1400px;margin:0 auto;padding:28px clamp(18px,5vw,72px) 55px;min-height:65vh}
 .product-back{display:inline-block;margin:0 0 16px;color:#52665a;font-size:15px;text-decoration:none}
-.product-breadcrumb{color:#818a80;font-size:14px;margin-bottom:22px}.product-breadcrumb span{padding:0 8px;color:#b69b64}
+.product-breadcrumb{color:#414941;font-size:14px;margin-bottom:22px}.product-breadcrumb span{padding:0 8px;color:#b69b64}
 .product-detail-page{grid-template-columns:minmax(0,1.08fr) minmax(340px,.92fr);gap:clamp(28px,6vw,76px);align-items:center;background:transparent}
 .product-detail-page .detail-visual{min-height:540px;height: min(62vw,680px);position:relative}
 .product-detail-page .detail-visual .fabric-art,.product-detail-page .detail-visual>img{width:100%;height:100%;object-fit:cover}
 .product-detail-page .detail-copy{padding:32px 0;max-width:510px}
 .product-detail-page .detail-copy h1{font:500 clamp(28px,3.5vw,46px)/1.25 var(--serif);color:var(--green);margin:13px 0 18px}
 .product-detail-page .detail-price{font-size:22px;color:var(--green);margin:0 0 18px}.product-detail-page .detail-price del{font-size:17px;color:#93978e;margin-left:10px}
-.product-detail-page .detail-description{font-size:16px;line-height:1.9;color:#717b72}.product-detail-page .detail-stock{font-size:15px;color:#577359;margin:19px 0}
-.product-detail-page .qty-control{max-width:100%;padding:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.product-detail-page .detail-actions{display:grid;gap:10px;margin-top:18px}.product-detail-page .pay-note{margin-top:16px;font-size:13px;color:#8b948c}
+.product-detail-page .detail-description{font-size:16px;line-height:1.9;color:#303833}.product-detail-page .detail-stock{font-size:15px;color:#354b3c;margin:19px 0}
+.product-detail-page .qty-control{max-width:100%;padding:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.product-detail-page .qty-control span{color:#303833}
+.product-detail-page .detail-actions{display:grid;gap:10px;margin-top:18px}.product-detail-page .pay-note{margin-top:16px;font-size:13px;color:#414a43}
 .product-page+.site-footer{margin-top:20px}
 @media(max-width:760px){.contact-widget{right:8px;top:auto;bottom:86px}.contact-toggle{padding:10px 12px}.contact-links a,.contact-disabled{min-width:132px;padding:8px 10px}.product-page{padding:18px 17px 38px}.product-detail-page{grid-template-columns:1fr;gap:18px}.product-detail-page .detail-visual{height:88vw;min-height:280px;max-height:470px}.product-detail-page .detail-copy{padding:12px 3px 24px}.product-detail-page .detail-copy h1{font-size:28px}.product-breadcrumb{margin-bottom:15px}}
 
