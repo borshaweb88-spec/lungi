@@ -131,3 +131,35 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 #app :is(small,.eyebrow,.overline,.admin-toolbar,.admin-table,.admin-table th,.admin-table td,.admin-table td small,.admin-card-head>span,.admin-nav,.admin-profile small,.admin-sidebar-promo small,.admin-copyright,.table-action){font-size:15px}
 #app :is(.admin-table td b,.admin-table td,.admin-table th,.admin-nav,.admin-toolbar b){font-weight:700}
 @media(max-width:760px){#app :is(p,li,label,input,textarea,select,button,a,span,td,th){font-size:15px}#app :is(small,.admin-table,.admin-table th,.admin-table td){font-size:14px}}
+
+/* Mobile quick navigation modeled on the supplied reference. */
+.mobile-bottom-nav{display:none}
+@media(max-width:760px){
+  body:has(.mobile-bottom-nav){padding-bottom:98px}
+  .mobile-bottom-nav{position:fixed;z-index:35;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));height:76px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:center;padding:5px 6px;background:rgba(255,255,255,.97);border:1px solid #e5e5e5;border-radius:24px;box-shadow:0 8px 30px #0002;backdrop-filter:blur(12px)}
+  .mobile-bottom-nav>a,.mobile-bottom-nav>button{min-width:0;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:4px 1px;border:0;background:transparent;color:#4b4b4b;font:600 12px/1.2 var(--sans);text-decoration:none;white-space:nowrap}
+  .mobile-bottom-nav i{position:relative;font-size:19px;font-style:normal}
+  .mobile-bottom-nav .bottom-home i{width:48px;height:48px;margin-top:-31px;display:grid;place-items:center;border:5px solid #fff;border-radius:50%;background:#222;color:#fff;font-size:20px;box-shadow:0 3px 12px #0002}
+  .mobile-bottom-nav .bottom-home span{margin-top:-1px}
+  .mobile-bottom-nav #bottom-cart i b{position:absolute;top:-8px;right:-12px;min-width:17px;height:17px;display:grid;place-items:center;padding:0 4px;border-radius:50%;background:#222;color:#fff;font:700 10px var(--sans)}
+}
+
+/* Keep the admin workspace consistently white and neutral. */
+.admin-auth,.admin-layout,.admin-sidebar,.admin-workspace,.admin-appbar,.admin-main,.dash-panel,.metric-card,.admin-card,.admin-table-wrap,.admin-table th,.admin-toolbar,.admin-sidebar-promo,.quick-action-grid button,.settings-form,.auth-card{background:#fff!important}
+.admin-auth{min-height:100vh;background:#fff!important}
+.admin-layout{background:#fff!important;color:#171717}
+.admin-sidebar{border-color:#e8e8e8!important;color:#171717!important}
+.admin-nav,.admin-nav.selected,.admin-nav:hover{background:#fff!important;color:#171717!important;box-shadow:none!important}
+.admin-nav.selected{border:1px solid #d5d5d5!important}
+.admin-nav i,.admin-nav.selected i,.admin-menu-toggle,.admin-notice{color:#333!important}
+.admin-brand,.admin-brand strong,.admin-brand small,.admin-profile b,.admin-logout,.admin-copyright,.admin-sidebar-promo,.admin-sidebar-promo b,.admin-sidebar-promo small{color:#222!important}
+.admin-brand-mark,.admin-profile .admin-avatar{background:#f5f5f5!important;color:#222!important}
+.admin-sidebar-promo{border-color:#e5e5e5!important}
+.admin-sidebar-promo>i{color:#555!important}
+.admin-sidebar-promo a,.admin-nav.selected{border:1px solid #d5d5d5!important;background:#fff!important;color:#171717!important}
+.admin-search,.dashboard-table th,.quick-action-grid button{background:#fff!important}
+.dash-panel,.metric-card,.admin-card,.admin-search,.dashboard-table th,.dashboard-table td,.admin-table th,.admin-table td,.quick-action-grid button,.settings-form input,.settings-form textarea,.settings-form select,.auth-card input{border-color:#e5e5e5!important}
+.admin-layout .metric-icon,.admin-layout .customer-initial,.admin-layout .product-bar i{filter:grayscale(1)}
+.admin-layout .dashboard-status,.admin-layout .status-pill{background:#fff!important;color:#333!important;border:1px solid #ddd}
+.admin-layout .dash-panel-head h2 i,.admin-layout .dash-panel-head button,.admin-layout .quick-action-grid button i{color:#333!important}
+.tracking-form{display:grid;gap:14px}.tracking-form label{display:grid;gap:6px;color:#333}.tracking-form input{width:100%;padding:12px;border:1px solid #ddd;background:#fff;color:#111}.tracking-form #tracking-result{display:grid;gap:7px;margin:0;color:#444}.tracking-form #tracking-result:empty{display:none}

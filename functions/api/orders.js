@@ -4,6 +4,19 @@ import { json, error, cleanText, money } from '../_shared/http.js';
 const methods = new Set(['cod', 'bkash', 'nagad', 'rocket', 'card']);
 const imageTypes = new Set(['image/jpeg', 'image/png', 'image/webp']);
 
+export async function onRequestGet({ request, env }) {
+  const url = new URL(request.url);
+  const orderNo = cleanText(url.searchParams.get('order_no'), 40).toUpperCase();
+  const phone = cleanText(url.searchParams.get('phone'), 30).replace(/\D/g, '');
+  if (!orderNo || phone.length < 7) return error('অর্ডার নম্বর ও ফোন নম্বর দিন।');
+  const order = await getDB(env).prepare(`SELECT order_no, phone, status, payment_status, total, created_at
+    FROM orders WHERE order_no=?`).bind(orderNo).first();
+  if (!order || order.phone.replace(/\D/g, '') !== phone) return error('এই অর্ডারের তথ্য মেলেনি।', 404);
+  const { results = [] } = await getDB(env).prepare(`SELECT product_title, quantity FROM order_items
+    WHERE order_id=(SELECT id FROM orders WHERE order_no=?)`).bind(orderNo).all();
+  return json({ order: { ...order, items: results } });
+}
+
 export async function onRequestPost({ request, env }) {
   let form;
   try { form = await request.formData(); } catch { return error('Order form is invalid'); }
