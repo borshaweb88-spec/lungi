@@ -45,3 +45,14 @@
 .contact-links a,.contact-disabled{width:48px;height:48px;min-width:48px;padding:0;border-radius:50%;justify-content:center}
 .contact-links a span,.contact-disabled span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:760px){.contact-widget{right:10px;bottom:80px}.contact-toggle{width:48px;height:48px}.contact-links a,.contact-disabled{width:44px;height:44px;min-width:44px}}
+
+/* Increase social icon contrast and edge clarity on compact floating buttons. */
+.contact-links a,.contact-disabled{opacity:1!important;background:#fff!important;border:1px solid #cbd4cb!important;box-shadow:0 3px 10px #17261d16!important}
+.contact-links svg{width:25px;height:25px;stroke-width:2.25;shape-rendering:geometricPrecision}
+.contact-widget .rail-wa{color:#128c52!important}.contact-widget .rail-fb{color:#0866ff!important}.contact-widget .rail-ig{color:#c13584!important}.contact-widget .rail-call{color:#b07812!important}
+.contact-widget .rail-wa svg path:first-child{fill:currentColor;stroke:currentColor}
+.contact-widget .rail-wa svg path:last-child{fill:none;stroke:#fff;stroke-width:1.9}
+.contact-links .rail-ig svg rect,.contact-links .rail-ig svg circle{stroke-width:2.1}
+.contact-links .rail-ig svg circle.icon-fill{fill:currentColor}
+.contact-widget .rail-call svg path{fill:currentColor;stroke:currentColor;stroke-width:1.5}
+.contact-toggle svg{width:22px;height:22px;stroke-width:2.2;shape-rendering:geometricPrecision}
