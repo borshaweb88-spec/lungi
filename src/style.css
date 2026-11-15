@@ -205,3 +205,5 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 .saved-sheet-list{display:grid}.saved-sheet-list>a{display:flex;align-items:center;gap:12px;padding:12px 4px;border-bottom:1px solid #eee;color:#333}.saved-sheet-list>a i{color:#15935a}.saved-sheet-list>a span{flex:1}.saved-sheet-list>a b{color:#5b2bd8;white-space:nowrap}
 @media(max-width:760px){#report-chat-form{grid-template-columns:1fr}.report-sheet-toolbar{align-items:stretch;flex-direction:column}.saved-sheet-list>a{align-items:flex-start;flex-wrap:wrap}.saved-sheet-list>a span{overflow-wrap:anywhere}}
 #app:has(#modal-root:not(:empty)) .contact-widget{display:none}
+.editor-form label{color:#222!important}
+.editor-form input:not([type="checkbox"]),.editor-form textarea,.editor-form select{background:#fff!important;color:#171717!important}
