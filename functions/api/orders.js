@@ -1,4 +1,4 @@
-import { getDB } from '../_shared/database.js';
+import { getDB, ensureProofTable } from '../_shared/database.js';
 import { json, error, cleanText, money } from '../_shared/http.js';
 
 const methods = new Set(['cod', 'bkash', 'nagad', 'rocket', 'card']);
@@ -21,7 +21,7 @@ export async function onRequestPost({ request, env }) {
     return error('COD ছাড়া পেমেন্টে সর্বোচ্চ ৫ MB-এর JPG, PNG বা WebP স্ক্রিনশট দিন।');
   }
   if (method !== 'cod' && !txn) return error('পেমেন্টের transaction/reference code লিখুন।');
-  if (method !== 'cod' && !env.PROOFS) return error('Payment proof storage is not configured yet.');
+  if (method !== 'cod') await ensureProofTable(env);
 
   const ids = [...new Set(data.items.map(row => Number(row.id)).filter(id => Number.isInteger(id) && id > 0))];
   if (!ids.length) return error('Cart item is invalid');
@@ -42,10 +42,10 @@ export async function onRequestPost({ request, env }) {
   const total = subtotal + shipping;
   let proofKey = '';
   const orderNo = `NL${new Date().toISOString().slice(2,10).replaceAll('-', '')}${crypto.randomUUID().slice(0, 6).toUpperCase()}`;
+  let proofBytes = null;
   if (method !== 'cod') {
-    const ext = proof.type === 'image/png' ? 'png' : proof.type === 'image/webp' ? 'webp' : 'jpg';
-    proofKey = `proofs/${orderNo}.${ext}`;
-    await env.PROOFS.put(proofKey, proof.stream(), { httpMetadata: { contentType: proof.type } });
+    proofKey = `db:${orderNo}`;
+    proofBytes = new Uint8Array(await proof.arrayBuffer());
   }
   const status = method === 'cod' ? 'pending' : 'awaiting_payment_review';
   const paymentStatus = method === 'cod' ? 'due_on_delivery' : 'review_pending';
@@ -54,7 +54,6 @@ export async function onRequestPost({ request, env }) {
   if(reservation.some(result=>result.meta.changes!==1)){
     const release=items.map((row,i)=>reservation[i]?.meta.changes===1?getDB(env).prepare('UPDATE products SET stock=stock+?, updated_at=? WHERE id=?').bind(row.quantity,now,row.id):null).filter(Boolean);
     if(release.length) await getDB(env).batch(release);
-    if(proofKey) await env.PROOFS.delete(proofKey);
     return error('স্টক পরিবর্তন হয়েছে। Cart refresh করে আবার চেষ্টা করুন।',409);
   }
   try {
@@ -62,6 +61,7 @@ export async function onRequestPost({ request, env }) {
       (order_no, customer_name, phone, email, address, area, payment_method, transaction_code, proof_key, payment_status, status, subtotal, shipping_fee, total, created_at, updated_at)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
       .bind(orderNo, name, phone, email, address, area, method, method === 'cod' ? '' : txn, proofKey, paymentStatus, status, subtotal, shipping, total, now, now)];
+    if (proofBytes) statements.push(getDB(env).prepare('INSERT INTO order_proofs (order_no, content_type, data, created_at) VALUES (?, ?, ?, ?)').bind(orderNo, proof.type, proofBytes, now));
     for (const row of items) {
       statements.push(getDB(env).prepare('INSERT INTO order_items (order_id, product_id, product_title, unit_price, quantity, line_total) VALUES ((SELECT id FROM orders WHERE order_no=?), ?, ?, ?, ?, ?)')
         .bind(orderNo,row.id,row.title,row.price,row.quantity,row.lineTotal));
@@ -70,7 +70,6 @@ export async function onRequestPost({ request, env }) {
     return json({ order_no: orderNo, status, payment_status: paymentStatus, subtotal, shipping_fee: shipping, total }, 201);
   } catch (e) {
     await getDB(env).batch(items.map(row=>getDB(env).prepare('UPDATE products SET stock=stock+?, updated_at=? WHERE id=?').bind(row.quantity,now,row.id)));
-    if (proofKey) await env.PROOFS.delete(proofKey);
     return error('অর্ডার save হয়নি। আবার চেষ্টা করুন।', 500);
   }
 }

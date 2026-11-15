@@ -1,15 +1,3 @@
 name = "nawab-loom-store"
 compatibility_date = "2026-11-15"
 pages_build_output_dir = "./dist"
-
-[[r2_buckets]]
-binding = "PROOFS"
-bucket_name = "nawab-loom-payment-proofs"
-preview_bucket_name = "nawab-loom-payment-proofs-local"
-
-# Keep Git/PR preview deployments isolated from production orders and proofs.
-[env.preview]
-
-[[env.preview.r2_buckets]]
-binding = "PROOFS"
-bucket_name = "nawab-loom-payment-proofs-preview"

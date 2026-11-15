@@ -67,3 +67,17 @@ export function getDB(env) {
     },
   };
 }
+
+let proofTableReady = false;
+
+// Payment screenshot Turso database-এ রাখার জন্য table (প্রথমবার নিজে থেকেই তৈরি হয়)
+export async function ensureProofTable(env) {
+  if (proofTableReady) return;
+  await getDB(env).prepare(`CREATE TABLE IF NOT EXISTS order_proofs (
+    order_no TEXT PRIMARY KEY,
+    content_type TEXT NOT NULL,
+    data BLOB NOT NULL,
+    created_at TEXT NOT NULL
+  )`).run();
+  proofTableReady = true;
+}

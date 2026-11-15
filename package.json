@@ -11,7 +11,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "pages:dev": "wrangler pages dev dist",
-    "pages:deploy": "wrangler pages deploy dist --project-name=lungi",
+    "pages:deploy": "wrangler pages deploy dist --project-name=nawab-loom-store",
     "db:migrate:turso": "node scripts/migrate-turso.js"
   },
   "dependencies": {
