@@ -207,3 +207,5 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 #app:has(#modal-root:not(:empty)) .contact-widget{display:none}
 .editor-form label{color:#222!important}
 .editor-form input:not([type="checkbox"]),.editor-form textarea,.editor-form select{background:#fff!important;color:#171717!important}
+.product-upload-preview{display:block;width:min(100%,220px);max-height:180px;object-fit:contain;background:#fff;border:1px solid #e5e5e5;padding:6px}
+.product-upload-preview[hidden]{display:none}
