@@ -1,873 +1,125 @@
-Y™Áäx-ÆÈ‹j◊ù¢Îi∫⁄+äßj[hëÈ‹¢ÈÌ◊ÕΩ—:-jZ.∂õ≠ñ)ﬁ≥Vñ◊˜'Br‚˜7Gñ∆RÊ772s∞†¶6ˆÁ7B“Fˆ7V÷VÁBÁVW'ï6V∆V7F˜"Çr6rì∞¶6ˆÁ7B7FFR“∞¢6ˆÊfñs¢∑“¬6FVv˜&ñW3¢µ“¬&ˆGV7G3¢µ“¬6'C¢&VD6'BÇí¬6FVv˜'ì¢v∆¬r¬VW'ì¢rr¿¢F÷ñ„¢f«6R¬F÷ñ‰V÷ñ√¢rr¬F÷ñÂF#¢v˜fW'fñWrr¬F÷ñ‰˜&FW'3¢µ“¬F÷ñÂ&ˆGV7G3¢µ“¬F÷ñ‰6FVv˜&ñW3¢µ“¿ß”∞¶6ˆÁ7Bf◊B“Ü‚í”‚
-{2G¥ÁV÷&W"Ü‚«¬íÁFÙ∆ˆ6∆U7G&ñÊrÇvV‚‘$Bró÷∞¶6ˆÁ7BW62“á3“rrí”‚7G&ñÊrá2íÁ&W∆6RÇı≤c√‚"u“ˆr¬2”‚á≤rbs¢rf◊≤r¬s¬s¢rf«C≤r¬s‚s¢rfwC≤r¬r"s¢rgV˜C≤r¬"r#¢rb33ì≤w’∂5“íì∞¶6ˆÁ7B6fUW&¬“á3“rrí”‚≤G'í≤6ˆÁ7BS÷ÊWrU$¬á2ì≤&WGW&‚≤váGG3¢r¬váGG¢u“ÊñÊ6«VFW2áRÁ&˜Fˆ6ˆ¬íÚRÊá&Vb¢rs≤“6F6Ç≤&WGW&‚rs≤“”∞¶6ˆÁ7B&DFFR“Çí”‚ÊWrñÁF¬‰FFUFñ÷Tf˜&÷BÇvV‚‘4r«∑Fñ÷U¶ˆÊS¢t6ñÙFÜ∂r«ñV#¢vÁV÷W&ñ2r∆÷ˆÁFÉ¢s"÷FñvóBr∆Fì¢s"÷FñvóBw“íÊf˜&÷BÜÊWrFFRÇíì∞¶gVÊ7Fñˆ‚&VD6'BÇó≤G'ó∑&WGW&‚•4Ù‚Á'6RÜ∆ˆ6≈7F˜&vRÊvWDóFV“ÇvÊv%ˆ6'Bró«¬uµ“ró÷6F6á∑&WGW&‚µ◊“–¶gVÊ7Fñˆ‚6fT6'BÇó≤∆ˆ6≈7F˜&vRÁ6WDóFV“ÇvÊv%ˆ6'Brƒ•4Ù‚Á7G&ñÊvñgíá7FFRÊ6'Bíì≤–¶7ñÊ2gVÊ7Fñˆ‚íáW&¬¬˜FñˆÁ3◊∑“í∞¢6ˆÁ7B&W7ˆÁ6S÷vóBfWF6ÇáW&¬«∂7&VFVÁFñ«3¢w6÷R÷˜&ñvñ‚r¬‚‚Ê˜FñˆÁ7“ì∞¢6ˆÁ7BGóS◊&W7ˆÁ6RÊÜVFW'2ÊvWBÇv6ˆÁFVÁB◊GóRró«¬rs∞¢6ˆÁ7BFF◊GóRÊñÊ6«VFW2Çv∆ñ6Fñˆ‚ˆß6ˆ‚rìˆvóB&W7ˆÁ6RÊß6ˆ‚Çì¶ÁV∆√∞¢ñbÇ&W7ˆÁ6RÊˆ≤íFá&˜rÊWrW'&˜"ÜFFÚÊW'&˜'«∆&WVW7Bfñ∆VBÇG∑&W7ˆÁ6RÁ7FGW7“ñì∞¢&WGW&‚FF∞ß–¶6ˆÁ7Bß6ˆ‰˜FñˆÁ3“Ü&ˆGíì”‚á∂÷WFÜˆC¢uı5Br∆ÜVFW'3ß≤v6ˆÁFVÁB◊GóRs¢v∆ñ6Fñˆ‚ˆß6ˆ‚w“∆&ˆGì§•4Ù‚Á7G&ñÊvñgíÜ&ˆGíó“ì∞¶6ˆÁ7B&ˆGV7Dñ÷vS“áì”ÁÊñ÷vU˜W&¬Ú∆ñ÷r7&3“"G∂W62á6fUW&¬áÊñ÷vU˜W&¬íó“"«C“"G∂W62áÁFóF∆Ró“"∆ˆFñÊs“&∆ßí"ˆÊW'&˜#“'FÜó2Á&V÷˜fRÇí#Ê¢∆Fób6∆73“&f'&ñ2÷'BG∑Ê6FVv˜'ï˜6«Vs””“v«VÊvísÚvf'&ñ2÷«VÊvís¢vf'&ñ2◊6&VRw“#„«7„‚G∑Ê6FVv˜'ï˜6«Vs””“v«VÊvísÚ~
-k.
-x
-iû
-xﬁ
-i~
-kÚs¢~
-kn
-kÓ
-j
-kŒ
-kÚw”¬˜7„„¬ˆFócÊ∞†¶7ñÊ2gVÊ7Fñˆ‚∆ˆE7F˜&RÇó∞¢G'í≤7FFRÊ6ˆÊfñs÷vóBíÇrˆíˆ6ˆÊfñrrì≤6ˆÁ7BFF÷vóBíÜˆí˜&ˆGV7G3ˆ6FVv˜'ì“G∂VÊ6ˆFUU$î6ˆ◊ˆÊVÁBá7FFRÊ6FVv˜'íó“g“G∂VÊ6ˆFUU$î6ˆ◊ˆÊVÁBá7FFRÁVW'íó÷ì≤7FFRÁ&ˆGV7G3÷FFÁ&ˆGV7G3≤7FFRÊ6FVv˜&ñW3÷FFÊ6FVv˜&ñW3≤&VÊFW%7F˜&RÇì≤–¢6F6ÇÜRó≤ÊñÊÊW$ÖD‘√÷∆÷ñ‚6∆73“&ˆff∆ñÊR#„∆Fób6∆73“&÷ˆÊˆw&“#‰‰√¬ˆFóc„∆ÉÂ7F˜&R6WGW
-iÆ
-k.
-iæ
-xs¬ˆÉ„«‚G∂W62ÜRÊ÷W76vRó”∆'#ÂGW'6ÚFF&6RU$¬˜Fˆ∂V‚
-h˛
-jŒ
-h"66ÜV÷6WGW
-j˛
-kÓ
-iÆ
-kÓ
-hr
-i^
-k
-x
-jé
-ZC¬˜„∆á&Vc“"6F÷ñ‚#‰F÷ñ‚6WGW¬ˆ„¬ˆ÷ñ„Ê≤–ß–¶gVÊ7Fñˆ‚6'D6˜VÁBÇó∑&WGW&‚7FFRÊ6'BÁ&VGV6RÇÜ‚«&˜rì”Ê‚∑&˜rÁVÁFóGí√ó–¶gVÊ7Fñˆ‚6'EF˜F¬Çó∑&WGW&‚7FFRÊ6'BÁ&VGV6RÇÜ‚«&˜rì”Ê‚≤ÑÁV÷&W"á&˜rÁ&ñ6Ró«√íß&˜rÁVÁFóGí√ó–¶gVÊ7Fñˆ‚6FVv˜'î∆ñÊ≤Ü2ó∑&WGW&‚∆'WGFˆ‚6∆73“&Êb÷∆ñÊ≤G∑7FFRÊ6FVv˜'ì””÷2Á6«VsÚvó2÷7W'&VÁBs¢rw“"FF÷6FVv˜'ì“"G∂W62Ü2Á6«Vró“#‚G∂W62Ü2ÊÊ÷Ró”¬ˆ'WGFˆ„Ê–¶gVÊ7Fñˆ‚&ˆGV7D6&Bá∆íó∑&WGW&‚∆'Fñ6∆R6∆73“'&ˆGV7B÷6&B"FF÷˜V‚◊&ˆGV7C“"G∑ÊñG“"7Gñ∆S“"“÷FV∆ì¢G∂í£CW÷◊2#„∆'WGFˆ‚6∆73“'&ˆGV7B◊fó7V¬"&ñ÷∆&V√“"G∂W62áÁFóF∆Ró“
-h˛
-k
-jŒ
-k˛
-ké
-xﬁ
-jN
-kÓ
-k
-k˛
-jB#‚G∑&ˆGV7Dñ÷vRáó“G∑ÊfVGW&VCÚs«7‚6∆73“'Fr#Ó
-jÆ
-iæ
-jé
-xﬁ
-jn
-x~
-k¬˜7„‚s¢rw”«7‚6∆73“'Vñ6≤÷FB#Ó
-jŒ
-k˛
-ké
-xﬁ
-jN
-kÓ
-k
-k˛
-jB
-jn
-x~
-in
-x
-jÇ«7„Ó(is¬˜7„„¬˜7„„¬ˆ'WGFˆ„„∆Fób6∆73“'&ˆGV7B÷÷WF#„«7‚6∆73“&WñV'&˜r#‚G∂W62áÊ6FVv˜'ïˆÊ÷W«¬~
-jé
-jN
-x
-jÇ
-ké
-h.
-i~
-xﬁ
-k
-kíró”¬˜7„„∆É3‚G∂W62áÁFóF∆Ró”¬ˆÉ3„∆Fób6∆73“'&ñ6R◊&˜r#„«7G&ˆÊs‚G∂f◊BáÁ&ñ6Ró”¬˜7G&ˆÊs‚G∑Ê6ˆ◊&UˆCˆ∆FV√‚G∂f◊BáÊ6ˆ◊&UˆBó”¬ˆFV√Ê¢rw”«7‚6∆73“'7Fˆ6≤#‚G∑Á7Fˆ6≥„Ú~
-ké
-xﬁ
-i˛
-i^
-xr
-hn
-iæ
-xrs¢~
-ké
-xﬁ
-i˛
-iR
-kn
-x~
-krw”¬˜7„„¬ˆFóc„¬ˆFóc„¬ˆ'Fñ6∆SÊ–¶gVÊ7Fñˆ‚6ˆÁF7DóFV◊2Çó∂6ˆÁ7B3◊7FFRÊ6ˆÊfñs≤&WGW&‚∂2ÁvÜG6ı≤wvr¬uvÜG4r∆áGG3¢Ú˜vÊ÷RÚG∂2ÁvÜG6Á&W∆6RÇıƒBˆr¬rró÷¬~)xíu”¶ÁV∆¬∆2Êf6V&ˆˆ≥ı≤vf"r¬tf6V&ˆˆ≤r∆2Êf6V&ˆˆ≤¬vbu”¶ÁV∆¬∆2ÊñÁ7Fw&”ı≤vñrr¬tñÁ7Fw&“r∆2ÊñÁ7Fw&“¬~)x‚u”¶ÁV∆¬∆2ÁÜˆÊSı≤v6∆¬r¬t6∆¬r∆FV√¢G∂2ÁÜˆÊW÷¬~(…Ru”¶ÁV∆≈“Êfñ«FW"Ñ&ˆˆ∆V‚ó–¶gVÊ7Fñˆ‚6ˆÁF7E&ñ¬Çó∑&WGW&‚∆6ñFR6∆73“&6ˆÁF7B◊&ñ¬"&ñ÷∆&V√“$6ˆÁF7B˜FñˆÁ2#‚G∂6ˆÁF7DóFV◊2ÇíÊ÷ÇÖ∂6«2∆∆&V¬«W&¬∆ñ6ˆÂ“ì”Ê∆6∆73“'&ñ¬“G∂6«7“"á&Vc“"G∂W62á6fUW&¬áW&¬ó««W&¬ó“"F&vWC“"G∑W&¬Á7F'G5vóFÇÇváGGrìÚuˆ&∆Ê≤s¢u˜6V∆bw“"&V√“&Êˆ˜VÊW""&ñ÷∆&V√“"G∂∆&V«“"FóF∆S“"G∂∆&V«“#‚G∂ñ6ˆÁ”¬ˆÊíÊ¶ˆñ‚Çrró”¬ˆ6ñFSÊ–¶gVÊ7Fñˆ‚&VÊFW%7F˜&RÇó∞¢6ˆÁ7B6fs◊7FFRÊ6ˆÊfñs∂Fˆ7V÷VÁBÁFóF∆S÷G∂6frÁ7F˜&UˆÊ÷W«¬~
-jé
-i>
-j˛
-kŒ
-kÓ
-j¬
-k.
-x
-j‚w“(	B
-kn
-kÓ
-j
-kŒ
-kÚ
-i2
-k.
-x
-iû
-xﬁ
-i~
-kˆ≤6ˆÁ7B6FVv˜'îÊ÷S◊7FFRÊ6FVv˜'ì””“v∆¬sÚ~
-jŒ
-kÓ
-iæ
-kÓ
-hr
-i^
-k
-k‚
-ké
-h.
-i~
-xﬁ
-k
-kísß7FFRÊ6FVv˜&ñW2ÊfñÊBÜ3”Ê2Á6«Vs””◊7FFRÊ6FVv˜'íìÚÊÊ÷W«¬rs∞¢ÊñÊÊW$ÖD‘√÷∆ÜVFW"6∆73“'6óFR÷ÜVFW"#„∆6∆73“&'&ÊB"á&Vc“"6Üˆ÷R#„«7‚6∆73“&'&ÊB÷÷&≤#‰‰√¬˜7„„«7„„«7G&ˆÊs‚G∂W62Ü6frÁ7F˜&UˆÊ÷W«¬~
-jé
-i>
-j˛
-kŒ
-kÓ
-j¬
-k.
-x
-j‚ró”¬˜7G&ˆÊs„«6÷∆√Ó
-jŒ
-kÓ
-h.
-k.
-kÓ
-k
-jŒ
-x
-jé
-jÇ+r
-j˛
-jN
-xﬁ
-jé
-x~
-k
-ké
-h.
-i~
-xﬁ
-k
-kì¬˜6÷∆√„¬˜7„„¬ˆ„∆Êb6∆73“&FW6∑F˜÷Êb#„∆'WGFˆ‚6∆73“&Êb÷∆ñÊ≤G∑7FFRÊ6FVv˜'ì””“v∆¬sÚvó2÷7W'&VÁBs¢rw“"FF÷6FVv˜'ì“&∆¬#Ó
-ké
-j¬
-jÆ
-j>
-xﬁ
-jÛ¬ˆ'WGFˆ„‚G∑7FFRÊ6FVv˜&ñW2Ê÷Ü6FVv˜'î∆ñÊ≤íÊ¶ˆñ‚Çrró”∆6∆73“&Êb÷∆ñÊ≤"á&Vc“"6&˜WB#Ó
-hn
-jÓ
-kÓ
-jn
-x~
-k
-i^
-j^
-k„¬ˆ„¬ˆÊc„∆Fób6∆73“&ÜVFW"÷7FñˆÁ2#„∆∆&V¬6∆73“'6V&6Ç÷&˜Ç#„«7„Ó(…S¬˜7„„∆ñÁWBñC“'6V&6Ç"∆6VÜˆ∆FW#“.
-kn
-kÓ
-j
-kŒ
-kÚ
-jŒ
-k‚
-k.
-x
-iû
-xﬁ
-i~
-kÚ
-in
-x
-h
-iŒ
-x
-jÇ"f«VS“"G∂W62á7FFRÁVW'íó“"&ñ÷∆&V√“.
-jÆ
-j>
-xﬁ
-jÚ
-in
-x
-h
-iŒ
-x
-jÇ#„∆∂&CÓ(…Ç≥¬ˆ∂&C„¬ˆ∆&V√„∆'WGFˆ‚6∆73“&&r÷'WGFˆ‚"ñC“&˜V‚÷6'B"&ñ÷∆&V√“$&r#„«7„Ó
-jŒ
-xﬁ
-j˛
-kÓ
-is¬˜7„„∆ìÓ)ös¬ˆì„∆#‚G∂6'D6˜VÁBÇó”¬ˆ#„¬ˆ'WGFˆ„„∆'WGFˆ‚6∆73“&÷ˆ&ñ∆R÷÷VÁR"ñC“&÷ˆ&ñ∆R÷÷VÁR"&ñ÷∆&V√“.
-jÓ
-x~
-jé
-x#Ó)ã¬ˆ'WGFˆ„„¬ˆFóc„¬ˆÜVFW#‡¢∆÷ñ‚ñC“&Üˆ÷R#„«6V7Fñˆ‚6∆73“&ÜW&Ú#„∆Fób6∆73“&ÜW&Ú÷6˜í#„«7‚6∆73“&˜fW&∆ñÊR#„∆ì„¬ˆì‚
-i
-jN
-k˛
-kû
-xﬁ
-j˛
-x~
-k
-jé
-jN
-x
-jÇ
-jŒ
-x
-jé
-jÉ¬˜7„„∆É‚G∂W62Ü6frÁFv∆ñÊW«¬~
-jŒ
-kÓ
-h.
-k.
-kÓ
-k
-jŒ
-x
-jé
-jé
-xr¬
-hn
-jÆ
-jÇ
-ké
-kÓ
-iŒ
-xrró”¬ˆÉ„«Ó
-kn
-kÓ
-j
-kŒ
-k˛
-k
-hn
-jﬁ
-k˛
-iŒ
-kÓ
-jN
-xﬁ
-jÚ¬
-k.
-x
-iû
-xﬁ
-i~
-k˛
-k
-hn
-k
-kÓ
-jÓ(	N
-jÆ
-xﬁ
-k
-jN
-k˛
-jn
-k˛
-jé
-x~
-k
-iŒ
-jé
-xﬁ
-jÚ
-j˛
-jN
-xﬁ
-jé
-xr
-jŒ
-kÓ
-iæ
-kÓ
-hr
-i^
-k
-k‚
-ké
-h.
-i~
-xﬁ
-k
-kû
-ZC¬˜„∆Fób6∆73“&ÜW&Ú÷7FñˆÁ2#„∆'WGFˆ‚6∆73“&'WGFˆ‚'WGFˆ‚÷F&≤"FF÷6FVv˜'ì“'6&VR#Ó
-kn
-kÓ
-j
-kŒ
-k˛
-k
-ké
-h.
-i~
-xﬁ
-k
-kí
-jn
-x~
-in
-x
-jÇ«7„Ó(is¬˜7„„¬ˆ'WGFˆ„„∆'WGFˆ‚6∆73“'FWáB÷'WGFˆ‚"FF÷6FVv˜'ì“&«VÊví#Ó
-k.
-x
-iû
-xﬁ
-i~
-k˛
-k
-ké
-h.
-i~
-xﬁ
-k
-kí«7„Ó(i#¬˜7„„¬ˆ'WGFˆ„„¬ˆFóc„∆Fób6∆73“&ÜW&Ú÷Ê˜FR#„«7„„Ú#¬˜7„„«7‚6∆73“&ÜW&Ú◊'V∆R#„¬˜7„„«7„Ó
-jŒ
-kÓ
-iæ
-kÓ
-hr
-i^
-k
-k‚+r
-j˛
-jN
-xﬁ
-jé
-xr
-jÆ
-xﬁ
-j˛
-kÓ
-iR
-i^
-k
-k„¬˜7„„¬ˆFóc„¬ˆFóc„∆Fób6∆73“&ÜW&Ú÷'B#„∆Fób6∆73“&ÜW&Ú÷˜&&óB#„¬ˆFóc„∆Fób6∆73“&ÜW&Ú÷6∆˜FÇ6∆˜FÇ÷÷ñ‚#„¬ˆFóc„∆Fób6∆73“&ÜW&Ú÷6∆˜FÇ6∆˜FÇ◊6ñFR#„¬ˆFóc„∆Fób6∆73“&ÜW&Ú◊6V¬#„«7„Ó
-jŒ
-kÓ
-h.
-k.
-kÓ
-k¬˜7„„∆#Ó
-jŒ
-x
-jé
-jÉ¬ˆ#„∆ìÓ)À3¬ˆì„¬ˆFóc„«7‚6∆73“&ÜW&Ú÷6Fñˆ‚#Ó
-jé
-i^
-kn
-kÓ
-j˛
-k¬
-i
-jN
-k˛
-kû
-xﬁ
-jÚ+r
-jŒ
-x
-jé
-jé
-xr
-j˛
-jN
-xﬁ
-jÉ¬˜7„„¬ˆFóc„¬˜6V7Fñˆ„‡¢«6V7Fñˆ‚6∆73“'G'W7B◊7G&ó#„«7„„∆#Ó)À3¬ˆ#‚
-jŒ
-kÓ
-iæ
-kÓ
-hr
-i^
-k
-k‚
-i^
-kÓ
-jÆ
-j
-k√¬˜7„„«7„„∆#Ó)À3¬ˆ#‚
-ké
-kÓ
-k
-k‚
-jŒ
-kÓ
-h.
-k.
-kÓ
-jn
-x~
-kn
-xr
-j
-x~
-k.
-k˛
-jﬁ
-kÓ
-k
-kÛ¬˜7„„«7„„∆#Ó)À3¬ˆ#‚66Çˆ‚FV∆ófW'ì¬˜7„„«7„„∆#Ó)À3¬ˆ#‚
-jé
-k˛
-k
-kÓ
-jÆ
-jb
-jÆ
-x~
-jÓ
-x~
-jé
-xﬁ
-iÛ¬˜7„„¬˜6V7Fñˆ„‡¢«6V7Fñˆ‚6∆73“&6ˆ∆∆V7Fñˆ‚◊6V7Fñˆ‚"ñC“&6ˆ∆∆V7Fñˆ‚#„∆Fób6∆73“'6V7Fñˆ‚÷ÜVFñÊr#„∆Fóc„«7‚6∆73“&WñV'&˜r#Ó
-i^
-kÓ
-jÆ
-j
-kŒ
-x~
-k
-i~
-k.
-xﬁ
-j£¬˜7„„∆É#‚G∂W62Ü6FVv˜'îÊ÷Ró”¬ˆÉ#„¬ˆFóc„∆Fób6∆73“&6ˆ∆∆V7Fñˆ‚◊Fˆˆ«2#„«7„‚G∑7FFRÁ&ˆGV7G2Ê∆VÊwFáﬁ
-i˛
-kÚ
-jÆ
-j>
-xﬁ
-jÛ¬˜7„„«6V∆V7BñC“'6˜'B"&ñ÷∆&V√“%6˜'B&ˆGV7G2#„∆˜Fñˆ‚f«VS“&fVGW&VB#Ó
-ké
-kÓ
-iŒ
-kÓ
-jé
-x≥¬ˆ˜Fñˆ„„∆˜Fñˆ‚f«VS“'&ñ6Uˆ62#Ó
-jn
-kÓ
-j„¢
-i^
-j‚
-j^
-x~
-i^
-xr
-jŒ
-x~
-kn
-kÛ¬ˆ˜Fñˆ„„∆˜Fñˆ‚f«VS“'&ñ6UˆFW62#Ó
-jn
-kÓ
-j„¢
-jŒ
-x~
-kn
-kÚ
-j^
-x~
-i^
-xr
-i^
-j„¬ˆ˜Fñˆ„„¬˜6V∆V7C„¬ˆFóc„¬ˆFóc„∆Fób6∆73“&6FVv˜'í÷6&G2#‚G∑7FFRÊ6FVv˜&ñW2Ê÷ÇÜ2∆íì”Ê∆'WGFˆ‚6∆73“&6FVv˜'í÷6&B6FVv˜'í“G∂ìÚv«VÊvís¢w6&VRw“"FF÷6FVv˜'ì“"G∂W62Ü2Á6«Vró“#„«7‚6∆73“&6FVv˜'í÷ÁV÷&W"#„G∂í≥“Ú
-ké
-h.
-i~
-xﬁ
-k
-kì¬˜7„„«7‚6∆73“&6FVv˜'í◊FóF∆R#‚G∂W62Ü2ÊÊ÷Ró”¬˜7„„«7‚6∆73“&6FVv˜'í÷FW62#‚G∂W62Ü2ÊFW67&óFñˆ‚ó”¬˜7„„«7‚6∆73“&6FVv˜'í÷'&˜r#Ó(is¬˜7„„¬ˆ'WGFˆ„ÊíÊ¶ˆñ‚Çrró”¬ˆFóc„∆Fób6∆73“'&ˆGV7B÷w&ñB#‚G∑7FFRÁ&ˆGV7G2Ê∆VÊwFÉ˜7FFRÁ&ˆGV7G2Ê÷á&ˆGV7D6&BíÊ¶ˆñ‚Çrrì¢s∆Fób6∆73“&V◊Gí◊&ˆGV7G2#„«7„Ó)À3¬˜7„„∆É3Ó
-h˛
-hr
-ké
-h.
-i~
-xﬁ
-k
-kû
-xr
-h˛
-in
-jé
-x≤
-jÆ
-j>
-xﬁ
-jÚ
-jé
-x~
-hs¬ˆÉ3„«‰F÷ñ‚ÊV¬
-j^
-x~
-i^
-xr
-jÆ
-j>
-xﬁ
-jÚ
-j˛
-xæ
-ir
-i^
-k
-k.
-xr
-h˛
-in
-kÓ
-jé
-xr
-jn
-x~
-in
-k‚
-j˛
-kÓ
-jŒ
-x~
-ZC¬˜„∆á&Vc“"6F÷ñ‚#‰F÷ñ‚ÊV√¬ˆ„¬ˆFóc‚w”¬ˆFóc„¬˜6V7Fñˆ„‡¢«6V7Fñˆ‚6∆73“'7F˜'í◊6V7Fñˆ‚"ñC“&&˜WB#„∆Fób6∆73“'7F˜'í÷'B#„∆Fób6∆73“'7F˜'í◊vVfR#„«7„‰‰√¬˜7„„¬ˆFóc„«7‚6∆73“'7F˜'í◊7F◊#‰U5B„∆'#„##S¬˜7„„¬ˆFóc„∆Fób6∆73“'7F˜'í÷6˜í#„«7‚6∆73“&WñV'&˜r#Ó
-hn
-jÓ
-kÓ
-jn
-x~
-k
-i~
-k.
-xﬁ
-j£¬˜7„„∆É#Ó
-i^
-kÓ
-jÆ
-j
-kŒ
-x~
-k
-jÆ
-xﬁ
-k
-jN
-k˛
-i˛
-kÛ∆'#Ó
-ké
-x
-jN
-kÓ
-j˛
-k¬
-j˛
-jN
-xﬁ
-jé
-ZC¬ˆÉ#„«‚G∂W62Ü6frÊ&˜WG«¬~
-jŒ
-kÓ
-h.
-k.
-kÓ
-k
-i
-jN
-k˛
-kû
-xﬁ
-j˛
-jŒ
-kÓ
-kû
-x
-jŒ
-x
-jé
-jÇ
-hn
-k
-jÆ
-xﬁ
-k
-jN
-k˛
-jn
-k˛
-jé
-x~
-k
-hn
-k
-kÓ
-jÓ(	N
-h˛
-hr
-jn
-x
-h~
-j˛
-kŒ
-x~
-k
-jÓ
-kÓ
-iﬁ
-xr
-hn
-jÓ
-k
-k‚
-in
-x
-h
-iŒ
-xr
-jé
-k˛
-hr
-hn
-jÓ
-kÓ
-jn
-x~
-k
-ké
-h.
-i~
-xﬁ
-k
-kû
-ZB
-jÆ
-xﬁ
-k
-jN
-k˛
-i˛
-kÚ
-jÆ
-j>
-xﬁ
-jÚ
-jŒ
-kÓ
-iæ
-kÓ
-hr
-i^
-k
-k‚
-kû
-j˛
-k¬
-j˛
-jN
-xﬁ
-jÇ
-jé
-k˛
-j˛
-kŒ
-xr¬
-j˛
-x~
-jÇ
-hn
-jÆ
-jé
-kÓ
-k
-i^
-kÓ
-iæ
-xr
-jÆ
-xŒ
-h
-iæ
-kÓ
-j˛
-k¬
-ké
-x
-jé
-xﬁ
-jn
-k
-jﬁ
-kÓ
-jŒ
-x~
-ZBró”¬˜„∆á&Vc“"66ˆÁF7B"6∆73“'VÊFW"÷∆ñÊ≤#Ó
-hn
-jÓ
-kÓ
-jn
-x~
-k
-ké
-kÓ
-j^
-xr
-i^
-j^
-k‚
-jŒ
-k.
-x
-jÇ«7„Ó(is¬˜7„„¬ˆ„¬ˆFóc„¬˜6V7Fñˆ„‡¢∆fˆ˜FW"ñC“&6ˆÁF7B#„∆Fób6∆73“&fˆ˜FW"◊F˜#„∆Fób6∆73“&'&ÊB'&ÊB÷fˆ˜FW"#„«7‚6∆73“&'&ÊB÷÷&≤#‰‰√¬˜7„„«7„„«7G&ˆÊs‚G∂W62Ü6frÁ7F˜&UˆÊ÷W«¬~
-jé
-i>
-j˛
-kŒ
-kÓ
-j¬
-k.
-x
-j‚ró”¬˜7G&ˆÊs„«6÷∆√Ó
-jŒ
-kÓ
-h.
-k.
-kÓ
-k
-jŒ
-x
-jé
-jÇ+r
-j˛
-jN
-xﬁ
-jé
-x~
-k
-ké
-h.
-i~
-xﬁ
-k
-kì¬˜6÷∆√„¬˜7„„¬ˆFóc„«Ó
-jŒ
-kÓ
-h.
-k.
-kÓ
-k
-jŒ
-x
-jé
-jé
-xr¬
-hn
-jÆ
-jÇ
-ké
-kÓ
-iŒ
-x~
-ZC¬˜„∆á&Vc“"66ˆ∆∆V7Fñˆ‚"6∆73“&fˆ˜FW"◊6Ü˜#Ó
-ké
-h.
-i~
-xﬁ
-k
-kí
-jn
-x~
-in
-x
-jÇ(is¬ˆ„¬ˆFóc„∆Fób6∆73“&fˆ˜FW"÷&˜GFˆ“#„«7„Ï*íG∂ÊWrFFRÇíÊvWDgV∆≈ñV"Çó“G∂W62Ü6frÁ7F˜&UˆÊ÷W«¬~
-jé
-i>
-j˛
-kŒ
-kÓ
-j¬
-k.
-x
-j‚ró“+r
-ké
-k
-xﬁ
-jŒ
-ké
-xﬁ
-jŒ
-jN
-xﬁ
-j¬
-ké
-h.
-k
-i^
-xﬁ
-k~
-k˛
-jC¬˜7„„«7„‚G∂W62Ü6frÊFG&W77«¬~
-jŒ
-kÓ
-h.
-k.
-kÓ
-jn
-x~
-kbró“G∂6frÁÜˆÊSˆ+rG∂W62Ü6frÁÜˆÊRó÷¢rw”¬˜7„„∆á&Vc“"6F÷ñ‚#‰F÷ñ‚6ñv‚ñ„¬ˆ„¬ˆFóc„¬ˆfˆ˜FW#„¬ˆ÷ñ„‚G∂6ˆÁF7E&ñ¬Çó”∆FóbñC“&÷ˆF¬◊&ˆ˜B#„¬ˆFócÊ∞¢&ñÊE7F˜&TWfVÁG2Çì∞ß–¶gVÊ7Fñˆ‚&ñÊE7F˜&TWfVÁG2Çó∞¢ÁVW'ï6V∆V7F˜$∆¬Çu∂FF÷6FVv˜'ï“ríÊf˜$V6ÇÜV√”ÊV¬ÊFDWfVÁD∆ó7FVÊW"Çv6∆ñ6≤r¬Çì”Á∑7FFRÊ6FVv˜'ì÷V¬ÊFF6WBÊ6FVv˜'ì∂∆ˆE7F˜&RÇì∂Fˆ7V÷VÁBÁVW'ï6V∆V7F˜"Çr66ˆ∆∆V7Fñˆ‚rìÚÁ67&ˆ∆ƒñÁFıfñWrá∂&VÜfñ˜#¢w6÷ˆ˜FÇw“ì∑“íì∞¢ÁVW'ï6V∆V7F˜"Çr76V&6ÇrìÚÊFDWfVÁD∆ó7FVÊW"ÇvñÁWBr∆S”Á∑7FFRÁVW'ì÷RÁF&vWBÁf«VS∂6∆V%Fñ÷V˜WBávñÊF˜rÁ6V&6ÖFñ÷W"ì∑vñÊF˜rÁ6V&6ÖFñ÷W#◊6WEFñ÷V˜WBÜ7ñÊ2Çì”Á∑G'ó∂6ˆÁ7BC÷vóBíÜˆí˜&ˆGV7G3ˆ6FVv˜'ì“G∂VÊ6ˆFUU$î6ˆ◊ˆÊVÁBá7FFRÊ6FVv˜'íó“g“G∂VÊ6ˆFUU$î6ˆ◊ˆÊVÁBá7FFRÁVW'íó÷ì∑7FFRÁ&ˆGV7G3÷BÁ&ˆGV7G3∑7FFRÊ6FVv˜&ñW3÷BÊ6FVv˜&ñW3∂6ˆÁ7Bw&ñC÷Fˆ7V÷VÁBÁVW'ï6V∆V7F˜"ÇrÁ&ˆGV7B÷w&ñBrì∂ñbÜw&ñBñw&ñBÊñÊÊW$ÖD‘√◊7FFRÁ&ˆGV7G2Ê÷á&ˆGV7D6&BíÊ¶ˆñ‚Çrró«¬s∆Fób6∆73“&V◊Gí◊&ˆGV7G2#„«7„Ó)À3¬˜7„„∆É3Ó
-h˛
-hr
-ké
-h.
-i~
-xﬁ
-k
-kû
-xr
-h˛
-in
-jé
-x≤
-jÆ
-j>
-xﬁ
-jÚ
-jé
-x~
-hs¬ˆÉ3„«‰F÷ñ‚ÊV¬
-j^
-x~
-i^
-xr
-jÆ
-j>
-xﬁ
-jÚ
-j˛
-xæ
-ir
-i^
-k
-k.
-xr
-h˛
-in
-kÓ
-jé
-xr
-jn
-x~
-in
-k‚
-j˛
-kÓ
-jŒ
-x~
-ZC¬˜„¬ˆFóc‚s∂6ˆÁ7B6˜VÁC÷Fˆ7V÷VÁBÁVW'ï6V∆V7F˜"ÇrÊ6ˆ∆∆V7Fñˆ‚◊Fˆˆ«27‚rì∂ñbÜ6˜VÁBñ6˜VÁBÁFWáD6ˆÁFVÁC÷G∑7FFRÁ&ˆGV7G2Ê∆VÊwFáﬁ
-i˛
-kÚ
-jÆ
-j>
-xﬁ
-jˆ∂Fˆ7V÷VÁBÁVW'ï6V∆V7F˜$∆¬Çu∂FF÷˜V‚◊&ˆGV7E“ríÊf˜$V6ÇÜV√”ÊV¬ÊFDWfVÁD∆ó7FVÊW"Çv6∆ñ6≤r¬Çì”Ê˜VÂ&ˆGV7BÑÁV÷&W"ÜV¬ÊFF6WBÊ˜VÂ&ˆGV7Bíííó÷6F6ÇÜW'"ó∑Fˆ7BÜW'"Ê÷W76vRó◊“√#có“ì∞¢ÁVW'ï6V∆V7F˜"Çr76˜'BrìÚÊFDWfVÁD∆ó7FVÊW"Çv6ÜÊvRr∆7ñÊ2S”Á∂6ˆÁ7BC÷vóBíÜˆí˜&ˆGV7G3ˆ6FVv˜'ì“G∂VÊ6ˆFUU$î6ˆ◊ˆÊVÁBá7FFRÊ6FVv˜'íó“g“G∂VÊ6ˆFUU$î6ˆ◊ˆÊVÁBá7FFRÁVW'íó“g6˜'C“G∂RÁF&vWBÁf«VW÷ì∑7FFRÁ&ˆGV7G3÷BÁ&ˆGV7G3∑7FFRÊ6FVv˜&ñW3÷BÊ6FVv˜&ñW3∑&VÊFW%7F˜&RÇó“ì∞¢ÁVW'ï6V∆V7F˜"Çr6˜V‚÷6'BrìÚÊFDWfVÁD∆ó7FVÊW"Çv6∆ñ6≤r∆˜V‰6'Bì∂ÁVW'ï6V∆V7F˜"Çr6÷ˆ&ñ∆R÷÷VÁRrìÚÊFDWfVÁD∆ó7FVÊW"Çv6∆ñ6≤r¬Çì”ÊÁVW'ï6V∆V7F˜"ÇrÊFW6∑F˜÷ÊbrìÚÊ6∆74∆ó7BÁFˆvv∆RÇvÊb÷˜V‚ríì∞¢ÁVW'ï6V∆V7F˜$∆¬Çu∂FF÷˜V‚◊&ˆGV7E“ríÊf˜$V6ÇÜV√”ÊV¬ÊFDWfVÁD∆ó7FVÊW"Çv6∆ñ6≤r¬Çì”Ê˜VÂ&ˆGV7BÑÁV÷&W"ÜV¬ÊFF6WBÊ˜VÂ&ˆGV7Bíííì∞¢ÁVW'ï6V∆V7F˜$∆¬Çv∂á&Vc“"6F÷ñ‚%“ríÊf˜$V6ÇÜ”ÊÊFDWfVÁD∆ó7FVÊW"Çv6∆ñ6≤r∆S”Á∂RÁ&WfVÁDFVfV«BÇì∂∆ˆ6Fñˆ‚ÊÜ6É“vF÷ñ‚s∑&VÊFW$F÷ñ‚Çó“íì∞¢ÁVW'ùt€›-¢Gß≤⁄Óù∆≠y‘EventListener('change',async e=>{state.daily=await api(`/api/admin/reports?day=${e.target.value}`);document.querySelector('#admin-content').innerHTML=adminTabMarkup();bindAdminTab()});
+import './style.css';
+
+const app = document.querySelector('#app');
+const state = {
+  config: {}, categories: [], products: [], cart: readCart(), category: 'all', query: '',
+  admin: false, adminEmail: '', adminTab: 'overview', adminOrders: [], adminProducts: [], adminCategories: [],
+};
+const fmt = (n) => `‡ß≥${Number(n || 0).toLocaleString('en-BD')}`;
+const esc = (s='') => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl = (s='') => { try { const u=new URL(s); return ['https:','http:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
+const bdDate = () => new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Dhaka',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+function readCart(){ try{return JSON.parse(localStorage.getItem('nawab_cart')||'[]')}catch{return []} }
+function saveCart(){ localStorage.setItem('nawab_cart',JSON.stringify(state.cart)); }
+async function api(url, options={}) {
+  const response=await fetch(url,{credentials:'same-origin',...options});
+  const type=response.headers.get('content-type')||'';
+  const data=type.includes('application/json')?await response.json():null;
+  if(!response.ok) throw new Error(data?.error||`Request failed (${response.status})`);
+  return data;
+}
+const jsonOptions=(body)=>({method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)});
+const productImage=(p)=>p.image_url ? `<img src="${esc(safeUrl(p.image_url))}" alt="${esc(p.title)}" loading="lazy" onerror="this.remove()">` : `<div class="fabric-art ${p.category_slug==='lungi'?'fabric-lungi':'fabric-saree'}"><span>${p.category_slug==='lungi'?'‡¶≤‡ßÅ‡¶ô‡ßç‡¶ó‡¶ø':'‡¶∂‡¶æ‡¶°‡¶º‡¶ø'}</span></div>`;
+
+async function loadStore(){
+  try { state.config=await api('/api/config'); const data=await api(`/api/products?category=${encodeURIComponent(state.category)}&q=${encodeURIComponent(state.query)}`); state.products=data.products; state.categories=data.categories; renderStore(); }
+  catch(e){ app.innerHTML=`<main class="offline"><div class="monogram">NL</div><h1>Store setup ‡¶ö‡¶≤‡¶õ‡ßá</h1><p>${esc(e.message)}<br>Turso database-‡¶è‡¶∞ ‡¶∏‡¶Ç‡¶Ø‡ßã‡¶ó ‡¶†‡¶ø‡¶ï ‡¶Ü‡¶õ‡ßá ‡¶ï‡¶ø ‡¶®‡¶æ ‡¶¶‡ßá‡¶ñ‡ßÅ‡¶®‡•§</p><a href="#admin">Admin setup</a></main>`; }
+}
+function cartCount(){return state.cart.reduce((n,row)=>n+row.quantity,0)}
+function cartTotal(){return state.cart.reduce((n,row)=>n+(Number(row.price)||0)*row.quantity,0)}
+function categoryLink(c){return `<button class="nav-link ${state.category===c.slug?'is-current':''}" data-category="${esc(c.slug)}">${esc(c.name)}</button>`}
+function productCard(p,i){return `<article class="product-card" data-open-product="${p.id}" style="--delay:${i*45}ms"><button class="product-visual" aria-label="${esc(p.title)} ‡¶è‡¶∞ ‡¶¨‡¶ø‡¶∏‡ßç‡¶§‡¶æ‡¶∞‡¶ø‡¶§">${productImage(p)}${p.featured?'<span class="tag">‡¶™‡¶õ‡¶®‡ßç‡¶¶‡ßá‡¶∞</span>':''}<span class="quick-add">‡¶¨‡¶ø‡¶∏‡ßç‡¶§‡¶æ‡¶∞‡¶ø‡¶§ ‡¶¶‡ßá‡¶ñ‡ßÅ‡¶® <span>‚Üó</span></span></button><div class="product-meta"><span class="eyebrow">${esc(p.category_name||'‡¶®‡¶§‡ßÅ‡¶® ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π')}</span><h3>${esc(p.title)}</h3><div class="price-row"><strong>${fmt(p.price)}</strong>${p.compare_at?`<del>${fmt(p.compare_at)}</del>`:''}<span class="stock">${p.stock>0?'‡¶∏‡ßç‡¶ü‡¶ï‡ßá ‡¶Ü‡¶õ‡ßá':'‡¶∏‡ßç‡¶ü‡¶ï ‡¶∂‡ßá‡¶∑'}</span></div></div></article>`}
+function contactItems(){const c=state.config; return [c.whatsapp?['wa','WhatsApp',`https://wa.me/${c.whatsapp.replace(/\D/g,'')}`,'‚óâ']:null,c.facebook?['fb','Facebook',c.facebook,'f']:null,c.instagram?['ig','Instagram',c.instagram,'‚óé']:null,c.phone?['call','Call',`tel:${c.phone}`,'‚åï']:null].filter(Boolean)}
+function contactRail(){return `<aside class="contact-rail" aria-label="Contact options">${contactItems().map(([cls,label,url,icon])=>`<a class="rail-${cls}" href="${esc(safeUrl(url)||url)}" target="${url.startsWith('http')?'_blank':'_self'}" rel="noopener" aria-label="${label}" title="${label}">${icon}</a>`).join('')}</aside>`}
+function renderStore(){
+  const cfg=state.config;document.title=`${cfg.store_name||'‡¶®‡¶ì‡¶Ø‡¶º‡¶æ‡¶¨ ‡¶≤‡ßÅ‡¶Æ'} ‚Äî ‡¶∂‡¶æ‡¶°‡¶º‡¶ø ‡¶ì ‡¶≤‡ßÅ‡¶ô‡ßç‡¶ó‡¶ø`; const categoryName=state.category==='all'?'‡¶¨‡¶æ‡¶õ‡¶æ‡¶á ‡¶ï‡¶∞‡¶æ ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π':state.categories.find(c=>c.slug===state.category)?.name||'';
+  app.innerHTML=`<header class="site-header"><a class="brand" href="#home"><span class="brand-mark">NL</span><span><strong>${esc(cfg.store_name||'‡¶®‡¶ì‡¶Ø‡¶º‡¶æ‡¶¨ ‡¶≤‡ßÅ‡¶Æ')}</strong><small>‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ‡¶∞ ‡¶¨‡ßÅ‡¶®‡¶® ¬∑ ‡¶Ø‡¶§‡ßç‡¶®‡ßá‡¶∞ ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π</small></span></a><nav class="desktop-nav"><button class="nav-link ${state.category==='all'?'is-current':''}" data-category="all">‡¶∏‡¶¨ ‡¶™‡¶£‡ßç‡¶Ø</button>${state.categories.map(categoryLink).join('')}<a class="nav-link" href="#about">‡¶Ü‡¶Æ‡¶æ‡¶¶‡ßá‡¶∞ ‡¶ï‡¶•‡¶æ</a></nav><div class="header-actions"><label class="search-box"><span>‚åï</span><input id="search" placeholder="‡¶∂‡¶æ‡¶°‡¶º‡¶ø ‡¶¨‡¶æ ‡¶≤‡ßÅ‡¶ô‡ßç‡¶ó‡¶ø ‡¶ñ‡ßÅ‡¶Å‡¶ú‡ßÅ‡¶®" value="${esc(state.query)}" aria-label="‡¶™‡¶£‡ßç‡¶Ø ‡¶ñ‡ßÅ‡¶Å‡¶ú‡ßÅ‡¶®"><kbd>‚åò K</kbd></label><button class="bag-button" id="open-cart" aria-label="Bag"><span>‡¶¨‡ßç‡¶Ø‡¶æ‡¶ó</span><i>‚ôß</i><b>${cartCount()}</b></button><button class="mobile-menu" id="mobile-menu" aria-label="‡¶Æ‡ßá‡¶®‡ßÅ">‚ò∞</button></div></header>
+  <main id="home"><section class="hero"><div class="hero-copy"><span class="overline"><i></i> ‡¶ê‡¶§‡¶ø‡¶π‡ßç‡¶Ø‡ßá‡¶∞ ‡¶®‡¶§‡ßÅ‡¶® ‡¶¨‡ßÅ‡¶®‡¶®</span><h1>${esc(cfg.tagline||'‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ‡¶∞ ‡¶¨‡ßÅ‡¶®‡¶®‡ßá, ‡¶Ü‡¶™‡¶® ‡¶∏‡¶æ‡¶ú‡ßá')}</h1><p>‡¶∂‡¶æ‡¶°‡¶º‡¶ø‡¶∞ ‡¶Ü‡¶≠‡¶ø‡¶ú‡¶æ‡¶§‡ßç‡¶Ø, ‡¶≤‡ßÅ‡¶ô‡ßç‡¶ó‡¶ø‡¶∞ ‡¶Ü‡¶∞‡¶æ‡¶Æ‚Äî‡¶™‡ßç‡¶∞‡¶§‡¶ø‡¶¶‡¶ø‡¶®‡ßá‡¶∞ ‡¶ú‡¶®‡ßç‡¶Ø ‡¶Ø‡¶§‡ßç‡¶®‡ßá ‡¶¨‡¶æ‡¶õ‡¶æ‡¶á ‡¶ï‡¶∞‡¶æ ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π‡•§</p><div class="hero-actions"><button class="button button-dark" data-category="saree">‡¶∂‡¶æ‡¶°‡¶º‡¶ø‡¶∞ ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π ‡¶¶‡ßá‡¶ñ‡ßÅ‡¶® <span>‚Üó</span></button><button class="text-button" data-category="lungi">‡¶≤‡ßÅ‡¶ô‡ßç‡¶ó‡¶ø‡¶∞ ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π <span>‚Üí</span></button></div><div class="hero-note"><span>01 / 02</span><span class="hero-rule"></span><span>‡¶¨‡¶æ‡¶õ‡¶æ‡¶á ‡¶ï‡¶∞‡¶æ ¬∑ ‡¶Ø‡¶§‡ßç‡¶®‡ßá ‡¶™‡ßç‡¶Ø‡¶æ‡¶ï ‡¶ï‡¶∞‡¶æ</span></div></div><div class="hero-art"><div class="hero-orbit"></div><div class="hero-cloth cloth-main"></div><div class="hero-cloth cloth-side"></div><div class="hero-seal"><span>‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ‡¶∞</span><b>‡¶¨‡ßÅ‡¶®‡¶®</b><i>‚ú≥</i></div><span class="hero-caption">‡¶®‡¶ï‡¶∂‡¶æ‡¶Ø‡¶º ‡¶ê‡¶§‡¶ø‡¶π‡ßç‡¶Ø ¬∑ ‡¶¨‡ßÅ‡¶®‡¶®‡ßá ‡¶Ø‡¶§‡ßç‡¶®</span></div></section>
+  <section class="trust-strip"><span><b>‚ú≥</b> ‡¶¨‡¶æ‡¶õ‡¶æ‡¶á ‡¶ï‡¶∞‡¶æ ‡¶ï‡¶æ‡¶™‡¶°‡¶º</span><span><b>‚ú≥</b> ‡¶∏‡¶æ‡¶∞‡¶æ ‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ‡¶¶‡ßá‡¶∂‡ßá ‡¶°‡ßá‡¶≤‡¶ø‡¶≠‡¶æ‡¶∞‡¶ø</span><span><b>‚ú≥</b> Cash on Delivery</span><span><b>‚ú≥</b> ‡¶®‡¶ø‡¶∞‡¶æ‡¶™‡¶¶ ‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü</span></section>
+  <section class="collection-section" id="collection"><div class="section-heading"><div><span class="eyebrow">‡¶ï‡¶æ‡¶™‡¶°‡¶º‡ßá‡¶∞ ‡¶ó‡¶≤‡ßç‡¶™</span><h2>${esc(categoryName)}</h2></div><div class="collection-tools"><span>${state.products.length}‡¶ü‡¶ø ‡¶™‡¶£‡ßç‡¶Ø</span><select id="sort" aria-label="Sort products"><option value="featured">‡¶∏‡¶æ‡¶ú‡¶æ‡¶®‡ßã</option><option value="price_asc">‡¶¶‡¶æ‡¶Æ: ‡¶ï‡¶Æ ‡¶•‡ßá‡¶ï‡ßá ‡¶¨‡ßá‡¶∂‡¶ø</option><option value="price_desc">‡¶¶‡¶æ‡¶Æ: ‡¶¨‡ßá‡¶∂‡¶ø ‡¶•‡ßá‡¶ï‡ßá ‡¶ï‡¶Æ</option></select></div></div><div class="category-cards">${state.categories.map((c,i)=>`<button class="category-card category-${i?'lungi':'saree'}" data-category="${esc(c.slug)}"><span class="category-number">0${i+1} / ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π</span><span class="category-title">${esc(c.name)}</span><span class="category-desc">${esc(c.description)}</span><span class="category-arrow">‚Üó</span></button>`).join('')}</div><div class="product-grid">${state.products.length?state.products.map(productCard).join(''):'<div class="empty-products"><span>‚ú≥</span><h3>‡¶è‡¶á ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π‡ßá ‡¶è‡¶ñ‡¶®‡ßã ‡¶™‡¶£‡ßç‡¶Ø ‡¶®‡ßá‡¶á</h3><p>Admin panel ‡¶•‡ßá‡¶ï‡ßá ‡¶™‡¶£‡ßç‡¶Ø ‡¶Ø‡ßã‡¶ó ‡¶ï‡¶∞‡¶≤‡ßá ‡¶è‡¶ñ‡¶æ‡¶®‡ßá ‡¶¶‡ßá‡¶ñ‡¶æ ‡¶Ø‡¶æ‡¶¨‡ßá‡•§</p><a href="#admin">Admin panel</a></div>'}</div></section>
+  <section class="story-section" id="about"><div class="story-art"><div class="story-weave"><span>NL</span></div><span class="story-stamp">EST.<br>2025</span></div><div class="story-copy"><span class="eyebrow">‡¶Ü‡¶Æ‡¶æ‡¶¶‡ßá‡¶∞ ‡¶ó‡¶≤‡ßç‡¶™</span><h2>‡¶ï‡¶æ‡¶™‡¶°‡¶º‡ßá‡¶∞ ‡¶™‡ßç‡¶∞‡¶§‡¶ø‡¶ü‡¶ø<br>‡¶∏‡ßÅ‡¶§‡¶æ‡¶Ø‡¶º ‡¶Ø‡¶§‡ßç‡¶®‡•§</h2><p>${esc(cfg.about||'‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ‡¶∞ ‡¶ê‡¶§‡¶ø‡¶π‡ßç‡¶Ø‡¶¨‡¶æ‡¶π‡ßÄ ‡¶¨‡ßÅ‡¶®‡¶® ‡¶Ü‡¶∞ ‡¶™‡ßç‡¶∞‡¶§‡¶ø‡¶¶‡¶ø‡¶®‡ßá‡¶∞ ‡¶Ü‡¶∞‡¶æ‡¶Æ‚Äî‡¶è‡¶á ‡¶¶‡ßÅ‡¶á‡¶Ø‡¶º‡ßá‡¶∞ ‡¶Æ‡¶æ‡¶ù‡ßá ‡¶Ü‡¶Æ‡¶∞‡¶æ ‡¶ñ‡ßÅ‡¶Å‡¶ú‡ßá ‡¶®‡¶ø‡¶á ‡¶Ü‡¶Æ‡¶æ‡¶¶‡ßá‡¶∞ ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π‡•§ ‡¶™‡ßç‡¶∞‡¶§‡¶ø‡¶ü‡¶ø ‡¶™‡¶£‡ßç‡¶Ø ‡¶¨‡¶æ‡¶õ‡¶æ‡¶á ‡¶ï‡¶∞‡¶æ ‡¶π‡¶Ø‡¶º ‡¶Ø‡¶§‡ßç‡¶® ‡¶®‡¶ø‡¶Ø‡¶º‡ßá, ‡¶Ø‡ßá‡¶® ‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ ‡¶ï‡¶æ‡¶õ‡ßá ‡¶™‡ßå‡¶Å‡¶õ‡¶æ‡¶Ø‡¶º ‡¶∏‡ßÅ‡¶®‡ßç‡¶¶‡¶∞‡¶≠‡¶æ‡¶¨‡ßá‡•§')}</p><a href="#contact" class="under-link">‡¶Ü‡¶Æ‡¶æ‡¶¶‡ßá‡¶∞ ‡¶∏‡¶æ‡¶•‡ßá ‡¶ï‡¶•‡¶æ ‡¶¨‡¶≤‡ßÅ‡¶® <span>‚Üó</span></a></div></section>
+  <footer id="contact"><div class="footer-top"><div class="brand brand-footer"><span class="brand-mark">NL</span><span><strong>${esc(cfg.store_name||'‡¶®‡¶ì‡¶Ø‡¶º‡¶æ‡¶¨ ‡¶≤‡ßÅ‡¶Æ')}</strong><small>‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ‡¶∞ ‡¶¨‡ßÅ‡¶®‡¶® ¬∑ ‡¶Ø‡¶§‡ßç‡¶®‡ßá‡¶∞ ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π</small></span></div><p>‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ‡¶∞ ‡¶¨‡ßÅ‡¶®‡¶®‡ßá, ‡¶Ü‡¶™‡¶® ‡¶∏‡¶æ‡¶ú‡ßá‡•§</p><a href="#collection" class="footer-shop">‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π ‡¶¶‡ßá‡¶ñ‡ßÅ‡¶® ‚Üó</a></div><div class="footer-bottom"><span>¬© ${new Date().getFullYear()} ${esc(cfg.store_name||'‡¶®‡¶ì‡¶Ø‡¶º‡¶æ‡¶¨ ‡¶≤‡ßÅ‡¶Æ')} ¬∑ ‡¶∏‡¶∞‡ßç‡¶¨‡¶∏‡ßç‡¶¨‡¶§‡ßç‡¶¨ ‡¶∏‡¶Ç‡¶∞‡¶ï‡ßç‡¶∑‡¶ø‡¶§</span><span>${esc(cfg.address||'‡¶¨‡¶æ‡¶Ç‡¶≤‡¶æ‡¶¶‡ßá‡¶∂')} ${cfg.phone?`¬∑ ${esc(cfg.phone)}`:''}</span><a href="#admin">Admin sign in</a></div></footer></main>${contactRail()}<div id="modal-root"></div>`;
+  bindStoreEvents();
+}
+function bindStoreEvents(){
+  app.querySelectorAll('[data-category]').forEach(el=>el.addEventListener('click',()=>{state.category=el.dataset.category;loadStore();document.querySelector('#collection')?.scrollIntoView({behavior:'smooth'});}));
+  app.querySelector('#search')?.addEventListener('input',e=>{state.query=e.target.value;clearTimeout(window.searchTimer);window.searchTimer=setTimeout(async()=>{try{const d=await api(`/api/products?category=${encodeURIComponent(state.category)}&q=${encodeURIComponent(state.query)}`);state.products=d.products;state.categories=d.categories;const grid=document.querySelector('.product-grid');if(grid)grid.innerHTML=state.products.map(productCard).join('')||'<div class="empty-products"><span>‚ú≥</span><h3>‡¶è‡¶á ‡¶∏‡¶Ç‡¶ó‡ßç‡¶∞‡¶π‡ßá ‡¶è‡¶ñ‡¶®‡ßã ‡¶™‡¶£‡ßç‡¶Ø ‡¶®‡ßá‡¶á</h3><p>Admin panel ‡¶•‡ßá‡¶ï‡ßá ‡¶™‡¶£‡ßç‡¶Ø ‡¶Ø‡ßã‡¶ó ‡¶ï‡¶∞‡¶≤‡ßá ‡¶è‡¶ñ‡¶æ‡¶®‡ßá ‡¶¶‡ßá‡¶ñ‡¶æ ‡¶Ø‡¶æ‡¶¨‡ßá‡•§</p></div>';const count=document.querySelector('.collection-tools span');if(count)count.textContent=`${state.products.length}‡¶ü‡¶ø ‡¶™‡¶£‡ßç‡¶Ø`;document.querySelectorAll('[data-open-product]').forEach(el=>el.addEventListener('click',()=>openProduct(Number(el.dataset.openProduct))))}catch(err){toast(err.message)}},260)});
+  app.querySelector('#sort')?.addEventListener('change',async e=>{const d=await api(`/api/products?category=${encodeURIComponent(state.category)}&q=${encodeURIComponent(state.query)}&sort=${e.target.value}`);state.products=d.products;state.categories=d.categories;renderStore()});
+  app.querySelector('#open-cart')?.addEventListener('click',openCart);app.querySelector('#mobile-menu')?.addEventListener('click',()=>app.querySelector('.desktop-nav')?.classList.toggle('nav-open'));
+  app.querySelectorAll('[data-open-product]').forEach(el=>el.addEventListener('click',()=>openProduct(Number(el.dataset.openProduct))));
+  app.querySelectorAll('a[href="#admin"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash='admin';renderAdmin()}));
+  app.querySelectorAll('a[href="#home"]').forEach(a=>a.addEventListener('click',()=>{state.category='all';loadStore()}));
+  document.addEventListener('keydown',searchShortcut,{once:true});
+}
+function searchShortcut(e){if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();document.querySelector('#search')?.focus()}document.addEventListener('keydown',searchShortcut,{once:true})}
+function openModal(html){const root=document.querySelector('#modal-root');root.innerHTML=`<div class="modal-backdrop"><section class="modal-shell">${html}<button class="modal-close" aria-label="‡¶¨‡¶®‡ßç‡¶ß ‡¶ï‡¶∞‡ßÅ‡¶®">√ó</button></section></div>`;root.querySelector('.modal-backdrop').addEventListener('click',e=>{if(e.target.classList.contains('modal-backdrop'))root.innerHTML=''});root.querySelector('.modal-close').addEventListener('click',()=>root.innerHTML='');}
+async function openProduct(id){
+  let {product:p,related}=await api(`/api/products?id=${id}`);
+  openModal(`<div class="product-detail"><div class="detail-visual">${productImage(p)}<span class="detail-index">NL / ${String(p.id).padStart(2,'0')}</span></div><div class="detail-copy"><span class="eyebrow">${esc(p.category_name)} ¬∑ ‡¶¨‡¶æ‡¶õ‡¶æ‡¶á ‡¶ï‡¶∞‡¶æ</span><h2>${esc(p.title)}</h2><p class="detail-price">${fmt(p.price)} ${p.compare_at?`<del>${fmt(p.compare_at)}</del>`:''}</p><p class="detail-description">${esc(p.description)}</p><p class="detail-stock">${p.stock>0?`‚óè ‡¶∏‡ßç‡¶ü‡¶ï‡ßá ‡¶Ü‡¶õ‡ßá ¬∑ ${p.stock}‡¶ü‡¶ø`:'‚óã ‡¶∏‡ßç‡¶ü‡¶ï ‡¶∂‡ßá‡¶∑'}</p><div class="qty-control"><span>‡¶™‡¶∞‡¶ø‡¶Æ‡¶æ‡¶£</span><button id="qty-minus">‚àí</button><b id="detail-qty">1</b><button id="qty-plus">+</button></div><div class="detail-actions"><button class="button button-dark" id="detail-add" ${p.stock<1?'disabled':''}>‡¶¨‡ßç‡¶Ø‡¶æ‡¶ó‡ßá ‡¶Ø‡ßã‡¶ó ‡¶ï‡¶∞‡ßÅ‡¶® <span>‚Üó</span></button><button class="button button-outline" id="detail-buy" ${p.stock<1?'disabled':''}>‡¶è‡¶ñ‡¶®‡¶á ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶ï‡¶∞‡ßÅ‡¶®</button></div><div class="pay-note">COD ¬∑ bKash ¬∑ Nagad ¬∑ Rocket ¬∑ Card</div></div></div><div class="related-section"><span class="eyebrow">‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ ‡¶ú‡¶®‡ßç‡¶Ø ‡¶Ü‡¶∞‡¶ì</span><h3>‡¶∏‡¶Æ‡ßç‡¶™‡¶∞‡ßç‡¶ï‡¶ø‡¶§ ‡¶™‡¶£‡ßç‡¶Ø</h3><div class="related-grid">${related.map(r=>`<button class="related-item" data-related="${r.id}">${productImage(r)}<span>${esc(r.title)}</span><b>${fmt(r.price)}</b></button>`).join('')||'<span>‡¶Ü‡¶∞‡¶ì ‡¶™‡¶£‡ßç‡¶Ø ‡¶∂‡ßÄ‡¶ò‡ßç‡¶∞‡¶á ‡¶Ü‡¶∏‡¶õ‡ßá‡•§</span>'}</div></div>`);
+  let qty=1;const qtyText=()=>document.querySelector('#detail-qty').textContent=qty;
+  document.querySelector('#qty-minus').onclick=()=>{qty=Math.max(1,qty-1);qtyText()};document.querySelector('#qty-plus').onclick=()=>{qty=Math.min(Number(p.stock)||99,qty+1);qtyText()};
+  document.querySelector('#detail-add').onclick=()=>{addCart(p,qty);document.querySelector('#modal-root').innerHTML='';toast('‡¶¨‡ßç‡¶Ø‡¶æ‡¶ó‡ßá ‡¶Ø‡ßã‡¶ó ‡¶π‡¶Ø‡¶º‡ßá‡¶õ‡ßá')};
+  document.querySelector('#detail-buy').onclick=()=>{document.querySelector('#modal-root').innerHTML='';checkout([{id:p.id,title:p.title,price:p.price,quantity:qty}])};
+  document.querySelectorAll('[data-related]').forEach(b=>b.onclick=()=>openProduct(Number(b.dataset.related)));
+}
+function addCart(p,quantity=1){const row=state.cart.find(x=>x.id===p.id);if(row)row.quantity=Math.min(Number(p.stock)||99,row.quantity+quantity);else state.cart.push({id:p.id,title:p.title,price:p.price,image_url:p.image_url,category_slug:p.category_slug,quantity});saveCart();document.querySelector('#open-cart b')&&(document.querySelector('#open-cart b').textContent=cartCount())}
+function openCart(){
+  const contents=()=>{const rows=state.cart.map((x,i)=>`<div class="cart-row"><div class="cart-thumb">${productImage(x)}</div><div class="cart-row-info"><strong>${esc(x.title)}</strong><span>${fmt(x.price)}</span><div class="cart-qty"><button data-q="${i}" data-step="-1">‚àí</button><b>${x.quantity}</b><button data-q="${i}" data-step="1">+</button></div></div><button class="remove-item" data-remove="${i}" aria-label="Remove">√ó</button></div>`).join('');
+    openModal(`<div class="cart-panel"><span class="eyebrow">‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ ‡¶®‡¶ø‡¶∞‡ßç‡¶¨‡¶æ‡¶ö‡¶®</span><h2>‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ ‡¶¨‡ßç‡¶Ø‡¶æ‡¶ó <small>(${cartCount()})</small></h2>${rows||'<div class="cart-empty">‡¶¨‡ßç‡¶Ø‡¶æ‡¶ó ‡¶è‡¶ñ‡¶®‡ßã ‡¶ñ‡¶æ‡¶≤‡¶ø‡•§<br>‡¶™‡¶õ‡¶®‡ßç‡¶¶‡ßá‡¶∞ ‡¶™‡¶£‡ßç‡¶Ø ‡¶Ø‡ßã‡¶ó ‡¶ï‡¶∞‡ßÅ‡¶®‡•§</div>'}<div class="cart-total"><span>‡¶™‡¶£‡ßç‡¶Ø‡ßá‡¶∞ subtotal</span><b>${fmt(cartTotal())}</b></div><p class="small-note">Delivery charge ‡¶†‡¶ø‡¶ï‡¶æ‡¶®‡¶æ‡¶∞ ‡¶≠‡¶ø‡¶§‡ßç‡¶§‡¶ø‡¶§‡ßá checkout-‡¶è ‡¶¶‡ßá‡¶ñ‡¶æ‡¶®‡ßã ‡¶π‡¶¨‡ßá‡•§</p><button class="button button-dark full-button" id="cart-checkout" ${rows?'':'disabled'}>Checkout ‡¶ï‡¶∞‡ßÅ‡¶® <span>‚Üó</span></button><button class="text-button centered" id="continue-shopping">‡¶ï‡ßá‡¶®‡¶æ‡¶ï‡¶æ‡¶ü‡¶æ ‡¶ö‡¶æ‡¶≤‡¶ø‡¶Ø‡¶º‡ßá ‡¶Ø‡¶æ‡¶®</button></div>`);
+    document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const x=state.cart[Number(b.dataset.q)];x.quantity=Math.max(1,x.quantity+Number(b.dataset.step));saveCart();contents()});document.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{state.cart.splice(Number(b.dataset.remove),1);saveCart();contents()});document.querySelector('#cart-checkout').onclick=()=>{const items=[...state.cart];document.querySelector('#modal-root').innerHTML='';checkout(items)};document.querySelector('#continue-shopping').onclick=()=>document.querySelector('#modal-root').innerHTML='';
+  };contents();
+}
+function checkout(items){
+  const subtotal=items.reduce((n,x)=>n+x.price*x.quantity,0);const settings=state.config;
+  openModal(`<form id="checkout-form" class="checkout-form"><div class="checkout-head"><span class="eyebrow">‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞</span><h2>‡¶°‡ßá‡¶≤‡¶ø‡¶≠‡¶æ‡¶∞‡¶ø ‡¶§‡¶•‡ßç‡¶Ø</h2><p>‡¶∏‡¶†‡¶ø‡¶ï ‡¶§‡¶•‡ßç‡¶Ø ‡¶¶‡¶ø‡¶®, ‡¶Ü‡¶Æ‡¶∞‡¶æ ‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ ‡¶∏‡¶æ‡¶•‡ßá ‡¶Ø‡ßã‡¶ó‡¶æ‡¶Ø‡ßã‡¶ó ‡¶ï‡¶∞‡¶¨‡•§</p></div><div class="checkout-layout"><div class="checkout-fields"><div class="field-grid"><label>‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ ‡¶®‡¶æ‡¶Æ<input name="name" required minlength="2" autocomplete="name" placeholder="‡¶™‡ßÇ‡¶∞‡ßç‡¶£ ‡¶®‡¶æ‡¶Æ"></label><label>‡¶Æ‡ßã‡¶¨‡¶æ‡¶á‡¶≤ ‡¶®‡¶Æ‡ßç‡¶¨‡¶∞<input name="phone" required minlength="7" autocomplete="tel" placeholder="01XXXXXXXXX"></label></div><label>Email <span class="optional">‡¶ê‡¶ö‡ßç‡¶õ‡¶ø‡¶ï</span><input type="email" name="email" autocomplete="email" placeholder="you@example.com"></label><label>‡¶∏‡¶Æ‡ßç‡¶™‡ßÇ‡¶∞‡ßç‡¶£ ‡¶†‡¶ø‡¶ï‡¶æ‡¶®‡¶æ<textarea name="address" required minlength="8" autocomplete="street-address" placeholder="‡¶¨‡¶æ‡¶°‡¶º‡¶ø, ‡¶∞‡ßã‡¶°, ‡¶è‡¶≤‡¶æ‡¶ï‡¶æ..."></textarea></label><label>‡¶∂‡¶π‡¶∞ / ‡¶ú‡ßá‡¶≤‡¶æ<input name="area" placeholder="‡¶Ø‡ßá‡¶Æ‡¶®: ‡¶¢‡¶æ‡¶ï‡¶æ"></label><fieldset class="payment-methods"><legend>‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü ‡¶™‡¶¶‡ßç‡¶ß‡¶§‡¶ø ‡¶®‡¶ø‡¶∞‡ßç‡¶¨‡¶æ‡¶ö‡¶®</legend>${[['cod','Cash on Delivery','‡¶°‡ßá‡¶≤‡¶ø‡¶≠‡¶æ‡¶∞‡¶ø‡¶∞ ‡¶∏‡¶Æ‡¶Ø‡¶º ‡¶™‡¶∞‡¶ø‡¶∂‡ßã‡¶ß'],['bkash','bKash',settings.payment_bkash?`Send Money ¬∑ ${settings.payment_bkash}`:'Admin Settings-‡¶è ‡¶®‡¶Æ‡ßç‡¶¨‡¶∞ ‡¶∏‡ßá‡¶ü ‡¶π‡¶¨‡ßá'],['nagad','Nagad',settings.payment_nagad?`Send Money ¬∑ ${settings.payment_nagad}`:'Admin Settings-‡¶è ‡¶®‡¶Æ‡ßç‡¶¨‡¶∞ ‡¶∏‡ßá‡¶ü ‡¶π‡¶¨‡ßá'],['rocket','Rocket',settings.payment_rocket?`Send Money ¬∑ ${settings.payment_rocket}`:'Admin Settings-‡¶è ‡¶®‡¶Æ‡ßç‡¶¨‡¶∞ ‡¶∏‡ßá‡¶ü ‡¶π‡¶¨‡ßá'],['card','Credit / Debit Card',settings.payment_card_url?'Secure payment link':'Payment link Admin Settings-‡¶è ‡¶∏‡ßá‡¶ü ‡¶π‡¶¨‡ßá']].map(([id,title,desc],i)=>`<label class="payment-choice"><input type="radio" name="payment_method" value="${id}" ${i===0?'checked':''}><span class="radio-mark"></span><span><b>${title}</b><small>${esc(desc)}</small></span><span class="pay-brand pay-${id}">${id==='cod'?'COD':id==='card'?'VISA':id.toUpperCase()}</span></label>`).join('')}</fieldset><div id="proof-fields" class="proof-fields" hidden><div class="instruction-card"><b>‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü ‡¶ï‡¶∞‡¶æ‡¶∞ ‡¶™‡¶∞</b><span>${esc(settings.payment_instructions||'Transaction code ‡¶ì payment screenshot ‡¶¶‡¶ø‡¶®‡•§ Admin ‡¶Ø‡¶æ‡¶ö‡¶æ‡¶á ‡¶ï‡¶∞‡¶æ‡¶∞ ‡¶™‡¶∞ order confirm ‡¶π‡¶¨‡ßá‡•§')}</span></div><label>Transaction / Reference code<input name="transaction_code" maxlength="100" placeholder="‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü ‡¶∞‡¶∏‡¶ø‡¶¶‡ßá ‡¶•‡¶æ‡¶ï‡¶æ ‡¶ï‡ßã‡¶°"></label><label class="file-drop">‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü‡ßá‡¶∞ screenshot ‡¶¶‡¶ø‡¶® <small>JPG, PNG ‡¶Ö‡¶•‡¶¨‡¶æ WebP ¬∑ ‡¶∏‡¶∞‡ßç‡¶¨‡ßã‡¶ö‡ßç‡¶ö 5 MB</small><input type="file" name="proof" accept="image/jpeg,image/png,image/webp"><span id="file-name">‡¶´‡¶æ‡¶á‡¶≤ ‡¶¨‡¶æ‡¶õ‡¶æ‡¶á ‡¶ï‡¶∞‡ßÅ‡¶®</span></label></div><div class="form-error" id="checkout-error" role="alert"></div><button class="button button-dark full-button" type="submit">‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶®‡¶ø‡¶∂‡ßç‡¶ö‡¶ø‡¶§ ‡¶ï‡¶∞‡ßÅ‡¶® <span>‚Üó</span></button><p class="privacy-note">‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ ‡¶§‡¶•‡ßç‡¶Ø ‡¶∂‡ßÅ‡¶ß‡ßÅ ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶™‡ßå‡¶Å‡¶õ‡ßá ‡¶¶‡ßá‡¶ì‡¶Ø‡¶º‡¶æ‡¶∞ ‡¶ú‡¶®‡ßç‡¶Ø ‡¶¨‡ßç‡¶Ø‡¶¨‡¶π‡¶æ‡¶∞ ‡¶ï‡¶∞‡¶æ ‡¶π‡¶¨‡ßá‡•§</p></div><aside class="order-summary"><span class="eyebrow">Order summary</span>${items.map(x=>`<div class="summary-item"><span>${esc(x.title)} √ó ${x.quantity}</span><b>${fmt(x.price*x.quantity)}</b></div>`).join('')}<div class="summary-item"><span>‡¶™‡¶£‡ßç‡¶Ø‡ßá‡¶∞ ‡¶Æ‡ßÇ‡¶≤‡ßç‡¶Ø</span><b>${fmt(subtotal)}</b></div><div class="summary-item"><span>Delivery</span><b>${fmt(settings.shipping_fee||0)}</b></div><div class="summary-total"><span>‡¶Æ‡ßã‡¶ü</span><b>${fmt(subtotal+Number(settings.shipping_fee||0))}</b></div><small>Online payment review ‡¶∏‡¶Æ‡ßç‡¶™‡¶®‡ßç‡¶® ‡¶π‡¶≤‡ßá order confirm ‡¶π‡¶¨‡ßá‡•§</small></aside></div></form>`);
+  const form=document.querySelector('#checkout-form');const radios=[...form.querySelectorAll('[name=payment_method]')];
+  const refresh=()=>{const method=form.querySelector('[name=payment_method]:checked').value;const fields=document.querySelector('#proof-fields');fields.hidden=method==='cod';fields.querySelector('[name=transaction_code]').required=method!=='cod';fields.querySelector('[name=proof]').required=method!=='cod';const extra=method==='bkash'?settings.payment_bkash:method==='nagad'?settings.payment_nagad:method==='rocket'?settings.payment_rocket:'';const instruction=fields.querySelector('.instruction-card');if(method==='card'&&safeUrl(settings.payment_card_url)){instruction.innerHTML=`<b>Card payment</b><span>Secure hosted payment page-‡¶è payment ‡¶∂‡ßá‡¶∑ ‡¶ï‡¶∞‡ßá screenshot ‡¶ì reference ‡¶¶‡¶ø‡¶®‡•§</span><a href="${esc(safeUrl(settings.payment_card_url))}" target="_blank" rel="noopener">Secure payment link ‡¶ñ‡ßÅ‡¶≤‡ßÅ‡¶® ‚Üó</a>`}else{instruction.innerHTML=`<b>${method==='cod'?'':'‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü ‡¶ï‡¶∞‡¶æ‡¶∞ ‡¶™‡¶∞'}</b><span>${extra?`${esc(method.toUpperCase())} Send Money: ${esc(extra)} ¬∑ `:''}${esc(settings.payment_instructions||'Transaction code ‡¶ì payment screenshot ‡¶¶‡¶ø‡¶®‡•§ Admin ‡¶Ø‡¶æ‡¶ö‡¶æ‡¶á ‡¶ï‡¶∞‡¶æ‡¶∞ ‡¶™‡¶∞ order confirm ‡¶π‡¶¨‡ßá‡•§')}</span>`}};radios.forEach(r=>r.onchange=refresh);refresh();
+  form.querySelector('[name=proof]').onchange=e=>{document.querySelector('#file-name').textContent=e.target.files[0]?.name||'‡¶´‡¶æ‡¶á‡¶≤ ‡¶¨‡¶æ‡¶õ‡¶æ‡¶á ‡¶ï‡¶∞‡ßÅ‡¶®'};
+  form.onsubmit=async e=>{e.preventDefault();const btn=form.querySelector('[type=submit]');btn.disabled=true;btn.textContent='‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶™‡¶æ‡¶†‡¶æ‡¶®‡ßã ‡¶π‡¶ö‡ßç‡¶õ‡ßá‚Ä¶';document.querySelector('#checkout-error').textContent='';const fd=new FormData(form);const order={name:fd.get('name'),phone:fd.get('phone'),email:fd.get('email'),address:fd.get('address'),area:fd.get('area'),payment_method:fd.get('payment_method'),transaction_code:fd.get('transaction_code'),items:items.map(x=>({id:x.id,quantity:x.quantity}))};const request=new FormData();request.append('order',JSON.stringify(order));if(fd.get('proof')?.size)request.append('proof',fd.get('proof'));try{const result=await api('/api/orders',{method:'POST',body:request});state.cart=[];saveCart();document.querySelector('#modal-root').innerHTML='';document.querySelector('#open-cart b')&&(document.querySelector('#open-cart b').textContent='0');orderSuccess(result)}catch(err){document.querySelector('#checkout-error').textContent=err.message;btn.disabled=false;btn.innerHTML='‡¶Ü‡¶¨‡¶æ‡¶∞ ‡¶ö‡ßá‡¶∑‡ßç‡¶ü‡¶æ ‡¶ï‡¶∞‡ßÅ‡¶® <span>‚Üó</span>'}};
+}
+function orderSuccess(r){openModal(`<div class="success-card"><span class="success-icon">‚úì</span><span class="eyebrow">Order received</span><h2>‡¶ß‡¶®‡ßç‡¶Ø‡¶¨‡¶æ‡¶¶! ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶ú‡¶Æ‡¶æ ‡¶π‡¶Ø‡¶º‡ßá‡¶õ‡ßá‡•§</h2><p>‡¶Ü‡¶™‡¶®‡¶æ‡¶∞ Order ID <b>${esc(r.order_no)}</b></p><p>${r.payment_status==='review_pending'?'Payment proof Admin ‡¶Ø‡¶æ‡¶ö‡¶æ‡¶á ‡¶ï‡¶∞‡¶¨‡ßá‡¶®‡•§ ‡¶è‡¶∞‡¶™‡¶∞ ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶®‡¶ø‡¶∂‡ßç‡¶ö‡¶ø‡¶§ ‡¶ï‡¶∞‡¶æ ‡¶π‡¶¨‡ßá‡•§':'‡¶Ü‡¶Æ‡¶∞‡¶æ ‡¶´‡ßã‡¶®‡ßá ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶®‡¶ø‡¶∂‡ßç‡¶ö‡¶ø‡¶§ ‡¶ï‡¶∞‡¶¨‡•§'}</p><div class="success-total"><span>Order total</span><b>${fmt(r.total)}</b></div><button class="button button-dark full-button" id="done">‡¶¶‡ßã‡¶ï‡¶æ‡¶®‡ßá ‡¶´‡¶ø‡¶∞‡ßá ‡¶Ø‡¶æ‡¶®</button></div>`);document.querySelector('#done').onclick=()=>{document.querySelector('#modal-root').innerHTML='';loadStore()}}
+function toast(text){const el=document.createElement('div');el.className='toast';el.textContent=text;document.body.append(el);setTimeout(()=>el.remove(),2300)}
+
+async function renderAdmin(){
+  if(location.hash!=='#admin')location.hash='admin';
+  app.innerHTML='<main class="admin-loading">Admin panel ‡¶ñ‡ßã‡¶≤‡¶æ ‡¶π‡¶ö‡ßç‡¶õ‡ßá‚Ä¶</main>';
+  try{const status=await api('/api/admin/status');try{const me=await api('/api/admin/me');state.admin=true;state.adminEmail=me.email;await renderDashboard()}catch{state.admin=false;renderAdminAuth(status)}}catch(e){app.innerHTML=`<main class="offline"><h1>Admin API unavailable</h1><p>${esc(e.message)}</p></main>`}
+}
+function renderAdminAuth(status){
+  const setup=status.needs_setup;app.innerHTML=`<main class="admin-auth"><a class="brand" href="#home"><span class="brand-mark">NL</span><span><strong>${esc(state.config.store_name||'‡¶®‡¶ì‡¶Ø‡¶º‡¶æ‡¶¨ ‡¶≤‡ßÅ‡¶Æ')}</strong><small>ADMIN CONSOLE</small></span></a><section class="auth-card"><span class="eyebrow">SECURE ADMIN</span><h1>${setup?'‡¶™‡ßç‡¶∞‡¶•‡¶Æ Admin account ‡¶§‡ßà‡¶∞‡¶ø ‡¶ï‡¶∞‡ßÅ‡¶®':'Admin sign in'}</h1><p>${setup?'Setup key Cloudflare secret ‡¶•‡ßá‡¶ï‡ßá ‡¶®‡¶ø‡¶®‡•§ ‡¶™‡ßç‡¶∞‡¶•‡¶Æ account ‡¶è‡¶ï‡¶¨‡¶æ‡¶∞‡¶á ‡¶§‡ßà‡¶∞‡¶ø ‡¶π‡¶¨‡ßá‡•§':'Store ‡¶™‡¶∞‡¶ø‡¶ö‡¶æ‡¶≤‡¶®‡¶æ ‡¶ï‡¶∞‡¶§‡ßá sign in ‡¶ï‡¶∞‡ßÅ‡¶®‡•§'}</p><form id="admin-auth-form">${setup?'<label>Bootstrap key<input name="bootstrap" type="password" required autocomplete="off"></label>':''}<label>Admin email<input name="email" type="email" required autocomplete="username" placeholder="admin@yourstore.com"></label><label>Password<input name="password" type="password" required ${setup?'minlength="12"':'autocomplete="current-password"'} autocomplete="new-password"></label><div class="form-error" id="auth-error"></div><button class="button button-dark full-button">${setup?'Admin account ‡¶§‡ßà‡¶∞‡¶ø ‡¶ï‡¶∞‡ßÅ‡¶®':'Sign in'} <span>‚Üó</span></button></form><a href="#home" class="text-button centered">‚Üê Store-‡¶è ‡¶´‡¶ø‡¶∞‡ßá ‡¶Ø‡¶æ‡¶®</a></section></main>`;
+  document.querySelector('#admin-auth-form').onsubmit=async e=>{e.preventDefault();const d=new FormData(e.currentTarget);const body={email:d.get('email'),password:d.get('password')};try{const url=setup?'/api/admin/bootstrap':'/api/admin/login';const options=jsonOptions(body);if(setup)options.headers['X-Bootstrap-Key']=d.get('bootstrap');await api(url,options);state.admin=true;state.adminEmail=body.email;renderDashboard()}catch(err){document.querySelector('#auth-error').textContent=err.message}};
+}
+async function renderDashboard(){
+  const [orders,products,cats,report,demand,settings]=await Promise.all([api('/api/admin/orders'),api('/api/admin/products'),api('/api/admin/categories'),api(`/api/admin/reports?day=${bdDate()}`),api('/api/admin/demand'),api('/api/config')]);
+  state.adminOrders=orders.orders;state.adminProducts=products.products;state.adminCategories=cats.categories;state.daily=report;state.demand=demand;state.config=settings;
+  const tabs=[['overview','Overview','‚ñ¶'],['orders','Orders','‚ñ§'],['products','Products','‚óá'],['categories','Categories','‚óà'],['demand','Demand','‚Üó'],['daily','Daily report','‚ñ•'],['settings','Store settings','‚öô'],['account','Admin account','‚óé']];
+  app.innerHTML=`<div class="admin-layout"><aside class="admin-sidebar"><a class="brand" href="#home"><span class="brand-mark">NL</span><span><strong>${esc(settings.store_name||'‡¶®‡¶ì‡¶Ø‡¶º‡¶æ‡¶¨ ‡¶≤‡ßÅ‡¶Æ')}</strong><small>ADMIN CONSOLE</small></span></a><nav>${tabs.map(([id,label,icon])=>`<button class="admin-nav ${state.adminTab===id?'selected':''}" data-admin-tab="${id}"><span>${icon}</span>${label}</button>`).join('')}</nav><div class="admin-user"><span class="admin-avatar">${esc((state.adminEmail[0]||'A').toUpperCase())}</span><span><b>${esc(state.adminEmail)}</b><small>Store administrator</small></span><button id="admin-logout" title="Sign out">‚Üó</button></div></aside><main class="admin-main"><header class="admin-topbar"><div><span class="eyebrow">STORE MANAGEMENT</span><h1>${esc(tabs.find(x=>x[0]===state.adminTab)?.[1]||'Overview')}</h1></div><div class="admin-top-actions"><a href="#home" target="_blank">Store ‡¶¶‡ßá‡¶ñ‡ßÅ‡¶® ‚Üó</a><span class="live-pill"><i></i> LIVE STORE</span></div></header><section id="admin-content">${adminTabMarkup()}</section></main></div>`;
+  document.querySelectorAll('[data-admin-tab]').forEach(b=>b.onclick=()=>{state.adminTab=b.dataset.adminTab;renderDashboard()});document.querySelector('#admin-logout').onclick=async()=>{await api('/api/admin/logout',{method:'POST'});state.admin=false;renderAdmin()};bindAdminTab();
+}
+function adminTabMarkup(){
+  const d=state.daily;const demand=state.demand;const orderCount=demand.summary?.order_count||0;const waiting=state.adminOrders.filter(o=>o.payment_status==='review_pending').length;
+  if(state.adminTab==='overview')return `<div class="stat-grid"><article><span>‡¶Ü‡¶ú‡¶ï‡ßá‡¶∞ ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞</span><b>${d.summary?.order_count||0}</b><small>‡¶Ü‡¶ú ‡¶ú‡¶Æ‡¶æ ‡¶π‡¶Ø‡¶º‡ßá‡¶õ‡ßá</small></article><article><span>‡¶Ü‡¶ú‡¶ï‡ßá‡¶∞ ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶Æ‡ßÇ‡¶≤‡ßç‡¶Ø</span><b>${fmt(d.summary?.order_value||0)}</b><small>‡¶¨‡¶æ‡¶§‡¶ø‡¶≤ ‡¶¨‡¶æ‡¶¶‡ßá</small></article><article><span>Payment review</span><b>${waiting}</b><small>‡¶Ø‡¶æ‡¶ö‡¶æ‡¶á ‡¶¨‡¶æ‡¶ï‡¶ø</small></article><article><span>‡¶∏‡¶ï‡ßç‡¶∞‡¶ø‡¶Ø‡¶º ‡¶™‡¶£‡ßç‡¶Ø</span><b>${state.adminProducts.filter(p=>p.active).length}</b><small>‡¶¶‡ßÅ‡¶á ‡¶ï‡ßç‡¶Ø‡¶æ‡¶ü‡¶æ‡¶ó‡¶∞‡¶ø ‡¶ú‡ßÅ‡¶°‡¶º‡ßá</small></article></div><div class="admin-columns"><section class="admin-card"><div class="admin-card-head"><div><span class="eyebrow">LATEST</span><h2>‡¶∏‡¶æ‡¶Æ‡ßç‡¶™‡ßç‡¶∞‡¶§‡¶ø‡¶ï ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞</h2></div><button class="text-button" data-admin-tab="orders">‡¶∏‡¶¨ ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‚Üí</button></div>${state.adminOrders.slice(0,6).map(orderRow).join('')||'<p class="admin-empty">‡¶è‡¶ñ‡¶®‡ßã ‡¶ï‡ßã‡¶®‡ßã ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶®‡ßá‡¶á‡•§</p>'}</section><section class="admin-card"><div class="admin-card-head"><div><span class="eyebrow">TOP SELLERS ¬∑ ALL TIME</span><h2>‡¶ö‡¶æ‡¶π‡¶ø‡¶¶‡¶æ‡¶∞ ‡¶™‡¶£‡ßç‡¶Ø</h2></div></div>${(demand.top_selling||[]).slice(0,6).map(x=>`<div class="demand-row"><span>${esc(x.product_title)}</span><b>${x.units} pcs</b><small>${fmt(x.sales)}</small></div>`).join('')||'<p class="admin-empty">‡¶è‡¶ñ‡¶®‡ßã ‡¶¨‡¶ø‡¶ï‡ßç‡¶∞‡¶ø‡¶∞ ‡¶§‡¶•‡ßç‡¶Ø ‡¶Ü‡¶∏‡ßá‡¶®‡¶ø‡•§</p>'}</section></div><div class="admin-card notice-card"><b>${orderCount}‡¶ü‡¶ø ‡¶Æ‡ßã‡¶ü ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞</b><span>Order, payment proof, product catalog, demand ‡¶è‡¶¨‡¶Ç daily PDF ‡¶∞‡¶ø‡¶™‡ßã‡¶∞‡ßç‡¶ü menu ‡¶•‡ßá‡¶ï‡ßá ‡¶™‡¶∞‡¶ø‡¶ö‡¶æ‡¶≤‡¶®‡¶æ ‡¶ï‡¶∞‡ßÅ‡¶®‡•§</span></div>`;
+  if(state.adminTab==='orders')return `<div class="admin-toolbar"><div><b>${state.adminOrders.length} orders</b><span>¬∑ ‡¶∏‡¶∞‡ßç‡¶¨‡¶∂‡ßá‡¶∑ 500‡¶ü‡¶ø</span></div><button class="button button-outline" id="refresh-admin">‚Üª Refresh</button></div><div class="order-list">${state.adminOrders.map(orderRow).join('')||'<p class="admin-empty">‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶ú‡¶Æ‡¶æ ‡¶π‡¶≤‡ßá ‡¶è‡¶ñ‡¶æ‡¶®‡ßá ‡¶¶‡ßá‡¶ñ‡¶æ ‡¶Ø‡¶æ‡¶¨‡ßá‡•§</p>'}</div>`;
+  if(state.adminTab==='products')return `<div class="admin-toolbar"><div><b>${state.adminProducts.length} products</b><span>¬∑ saree ‡¶ì lungi catalog</span></div><button class="button button-dark" id="add-product">+ ‡¶®‡¶§‡ßÅ‡¶® ‡¶™‡¶£‡ßç‡¶Ø</button></div><div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>‡¶™‡¶£‡ßç‡¶Ø</th><th>‡¶ï‡ßç‡¶Ø‡¶æ‡¶ü‡¶æ‡¶ó‡¶∞‡¶ø</th><th>‡¶¶‡¶æ‡¶Æ</th><th>Stock</th><th>Status</th><th></th></tr></thead><tbody>${state.adminProducts.map(p=>`<tr><td><b>${esc(p.title)}</b><small>${esc(p.slug)}</small></td><td>${esc(p.category_name)}</td><td>${fmt(p.price)}</td><td>${p.stock}</td><td>${p.active?'Active':'Hidden'}</td><td><button class="table-action" data-edit-product="${p.id}">Edit</button></td></tr>`).join('')}</tbody></table></div>`;
+  if(state.adminTab==='categories')return `<div class="admin-toolbar"><div><b>${state.adminCategories.length} categories</b><span>¬∑ ‡¶Ü‡¶≤‡¶æ‡¶¶‡¶æ saree ‡¶ì lungi ‡¶¨‡¶ø‡¶≠‡¶æ‡¶ó</span></div><button class="button button-dark" id="add-category">+ ‡¶®‡¶§‡ßÅ‡¶® category</button></div><div class="category-admin-grid">${state.adminCategories.map(c=>`<article><span class="eyebrow">${c.active?'ACTIVE':'HIDDEN'}</span><h2>${esc(c.name)}</h2><p>${esc(c.description)}</p><small>/${esc(c.slug)}</small><button class="text-button" data-edit-category="${c.id}">Edit category ‚Üí</button></article>`).join('')}</div>`;
+  if(state.adminTab==='demand')return `<div class="stat-grid"><article><span>‡¶Æ‡ßã‡¶ü ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞</span><b>${demand.summary?.order_count||0}</b><small>‡¶∏‡¶ï‡¶≤ ‡¶¶‡¶ø‡¶®‡ßá‡¶∞ orders</small></article><article><span>‡¶Æ‡ßã‡¶ü ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶Æ‡ßÇ‡¶≤‡ßç‡¶Ø</span><b>${fmt(demand.summary?.order_value||0)}</b><small>‡¶¨‡¶æ‡¶§‡¶ø‡¶≤ ‡¶¨‡¶æ‡¶¶‡ßá</small></article><article><span>‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü ‡¶®‡¶ø‡¶∂‡ßç‡¶ö‡¶ø‡¶§</span><b>${fmt(demand.summary?.paid_revenue||0)}</b><small>Verified / delivered</small></article><article><span>‡¶¨‡¶æ‡¶§‡¶ø‡¶≤ / ‡¶™‡ßç‡¶∞‡¶§‡ßç‡¶Ø‡¶æ‡¶ñ‡ßç‡¶Ø‡¶æ‡¶§</span><b>${demand.summary?.rejected_count||0}</b><small>‡¶∏‡¶ï‡¶≤ ‡¶¶‡¶ø‡¶®‡ßá‡¶∞ orders</small></article></div><div class="admin-columns"><section class="admin-card"><div class="admin-card-head"><div><span class="eyebrow">BEST SELLERS ¬∑ ALL TIME</span><h2>‡¶∏‡¶¨‡¶ö‡ßá‡¶Ø‡¶º‡ßá ‡¶¨‡ßá‡¶∂‡¶ø order ‡¶ì sale</h2></div></div>${(demand.top_selling||[]).map(x=>`<div class="demand-row"><span>${esc(x.product_title)}</span><b>${x.units} pcs</b><small>${fmt(x.sales)}</small></div>`).join('')||'<p class="admin-empty">‡¶è‡¶ñ‡¶®‡ßã ‡¶¨‡¶ø‡¶ï‡ßç‡¶∞‡¶ø‡¶∞ ‡¶§‡¶•‡ßç‡¶Ø ‡¶Ü‡¶∏‡ßá‡¶®‡¶ø‡•§</p>'}</section><section class="admin-card"><div class="admin-card-head"><div><span class="eyebrow">REJECTED / CANCELLED</span><h2>‡¶¨‡¶æ‡¶§‡¶ø‡¶≤ ‡¶¨‡¶æ ‡¶™‡ßç‡¶∞‡¶§‡ßç‡¶Ø‡¶æ‡¶ñ‡ßç‡¶Ø‡¶æ‡¶§ ‡¶™‡¶£‡ßç‡¶Ø</h2></div></div>${(demand.rejected||[]).map(x=>`<div class="demand-row"><span>${esc(x.product_title)}</span><b>${x.units} pcs</b><small>${x.orders} orders</small></div>`).join('')||'<p class="admin-empty">Rejected order ‡¶®‡ßá‡¶á‡•§</p>'}</section></div>`;
+  if(state.adminTab==='daily')return `<div class="report-toolbar"><label>Dhaka-‡¶∞ ‡¶§‡¶æ‡¶∞‡¶ø‡¶ñ ‡¶®‡¶ø‡¶∞‡ßç‡¶¨‡¶æ‡¶ö‡¶®<input type="date" id="report-day" value="${esc(d.day)}"></label><button class="button button-outline" id="download-pdf">PDF ‡¶°‡¶æ‡¶â‡¶®‡¶≤‡ßã‡¶° ‚Üß</button></div><div class="stat-grid"><article><span>‡¶Ü‡¶ú‡¶ï‡ßá‡¶∞ ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞</span><b>${d.summary?.order_count||0}</b></article><article><span>‡¶Æ‡ßã‡¶ü ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞ ‡¶Æ‡ßÇ‡¶≤‡ßç‡¶Ø</span><b>${fmt(d.summary?.order_value||0)}</b></article><article><span>‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü ‡¶®‡¶ø‡¶∂‡ßç‡¶ö‡¶ø‡¶§</span><b>${fmt(d.summary?.paid_revenue||0)}</b></article><article><span>Rejected / Cancelled</span><b>${d.summary?.rejected_count||0}</b></article></div><div class="admin-columns"><section class="admin-card"><div class="admin-card-head"><div><span class="eyebrow">BEST SELLERS ¬∑ ${esc(d.day)}</span><h2>‡¶Ü‡¶ú ‡¶¨‡¶ø‡¶ï‡ßç‡¶∞‡¶ø ‡¶π‡¶ì‡¶Ø‡¶º‡¶æ ‡¶™‡¶£‡ßç‡¶Ø</h2></div></div>${(d.top_selling||[]).map(x=>`<div class="demand-row"><span>${esc(x.product_title)}</span><b>${x.units} pcs</b><small>${fmt(x.sales)}</small></div>`).join('')||'<p class="admin-empty">‡¶è‡¶á ‡¶¶‡¶ø‡¶®‡ßá‡¶∞ ‡¶¨‡¶ø‡¶ï‡ßç‡¶∞‡¶ø‡¶∞ ‡¶§‡¶•‡ßç‡¶Ø ‡¶®‡ßá‡¶á‡•§</p>'}</section><section class="admin-card"><div class="admin-card-head"><div><span class="eyebrow">REJECTED</span><h2>‡¶¨‡¶æ‡¶§‡¶ø‡¶≤ / ‡¶™‡ßç‡¶∞‡¶§‡ßç‡¶Ø‡¶æ‡¶ñ‡ßç‡¶Ø‡¶æ‡¶§ ‡¶™‡¶£‡ßç‡¶Ø</h2></div></div>${(d.rejected||[]).map(x=>`<div class="demand-row"><span>${esc(x.product_title)}</span><b>${x.units} pcs</b><small>${x.orders} orders</small></div>`).join('')||'<p class="admin-empty">Rejected order ‡¶®‡ßá‡¶á‡•§</p>'}</section></div><section class="admin-card"><div class="admin-card-head"><div><span class="eyebrow">DAILY ORDER DETAILS</span><h2>${esc(d.day)}-‡¶è‡¶∞ ‡¶™‡ßç‡¶∞‡¶§‡¶ø‡¶ü‡¶ø ‡¶Ö‡¶∞‡ßç‡¶°‡¶æ‡¶∞</h2></div><span>${d.orders?.length||0} orders</span></div><div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Order & customer</th><th>‡¶™‡¶£‡ßç‡¶Ø ¬∑ ‡¶™‡¶∞‡¶ø‡¶Æ‡¶æ‡¶£ ¬∑ ‡¶è‡¶ï‡¶ï ‡¶¶‡¶æ‡¶Æ</th><th>Payment / status</th><th>‡¶Æ‡ßã‡¶ü</th></tr></thead><tbody>${(d.orders||[]).map(o=>`<tr><td><b>${esc(o.order_no)}</b><small>${esc(o.customer_name)} ¬∑ ${esc(o.phone)} ¬∑ ${esc(o.address)} ${esc(o.area)}</small><small>${new Date(o.created_at).toLocaleTimeString('bn-BD')}</small></td><td>${(o.items||[]).map(i=>`<div>${esc(i.product_title)} √ó ${i.quantity} ¬∑ ${fmt(i.unit_price)} = ${fmt(i.line_total)}</div>`).join('')}</td><td>${esc(o.payment_method.toUpperCase())}<small>${esc(o.payment_status)} ¬∑ ${esc(o.status)}</small></td><td><b>${fmt(o.total)}</b></td></tr>`).join('')||'<tr><td colspan="4">‡¶è‡¶á ‡¶§‡¶æ‡¶∞‡¶ø‡¶ñ‡ßá order ‡¶®‡ßá‡¶á‡•§</td></tr>'}</tbody></table></div></section>`;
+  if(state.adminTab==='settings')return settingsMarkup();
+  if(state.adminTab==='account')return `<form id="admin-account-form" class="admin-card settings-form"><div class="admin-card-head"><div><span class="eyebrow">SECURITY</span><h2>Admin email ‡¶ì password</h2></div></div><label>‡¶¨‡¶∞‡ßç‡¶§‡¶Æ‡¶æ‡¶® password<input type="password" name="current_password" required autocomplete="current-password"></label><label>‡¶®‡¶§‡ßÅ‡¶® admin email<input type="email" name="email" value="${esc(state.adminEmail)}" required autocomplete="email"></label><label>‡¶®‡¶§‡ßÅ‡¶® password <small>‡¶™‡¶∞‡¶ø‡¶¨‡¶∞‡ßç‡¶§‡¶® ‡¶®‡¶æ ‡¶ï‡¶∞‡¶≤‡ßá ‡¶´‡¶æ‡¶Å‡¶ï‡¶æ ‡¶∞‡¶æ‡¶ñ‡ßÅ‡¶®; ‡¶¶‡¶ø‡¶≤‡ßá ‡¶Ö‡¶®‡ßç‡¶§‡¶§ ‡ßß‡ß® ‡¶Ö‡¶ï‡ßç‡¶∑‡¶∞</small><input type="password" name="password" minlength="12" autocomplete="new-password"></label><div class="form-error" id="admin-form-error"></div><button class="button button-dark">‡¶®‡¶ø‡¶∞‡¶æ‡¶™‡¶§‡ßç‡¶§‡¶æ ‡¶§‡¶•‡ßç‡¶Ø update ‡¶ï‡¶∞‡ßÅ‡¶®</button></form>`;
+  return '';
+}
+function orderRow(o){
+  const statusLabel={pending:'‡¶®‡¶§‡ßÅ‡¶®',awaiting_payment_review:'‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü ‡¶Ø‡¶æ‡¶ö‡¶æ‡¶á ‡¶¨‡¶æ‡¶ï‡¶ø',processing:'‡¶™‡ßç‡¶∞‡¶∏‡ßá‡¶∏‡¶ø‡¶Ç',shipped:'‡¶™‡¶æ‡¶†‡¶æ‡¶®‡ßã ‡¶π‡¶Ø‡¶º‡ßá‡¶õ‡ßá',delivered:'‡¶°‡ßá‡¶≤‡¶ø‡¶≠‡¶æ‡¶∞‡¶°',cancelled:'‡¶¨‡¶æ‡¶§‡¶ø‡¶≤',rejected:'‡¶™‡ßç‡¶∞‡¶§‡ßç‡¶Ø‡¶æ‡¶ñ‡ßç‡¶Ø‡¶æ‡¶§'}[o.status]||o.status;
+  const final=['cancelled','rejected','delivered'].includes(o.status);const review=o.payment_status==='review_pending';
+  const controls=final?'':review?`<button class="button button-dark mini" data-verify="${o.id}">Payment verify</button><button class="table-action danger" data-reject="${o.id}">Reject payment</button><button class="table-action danger" data-cancel="${o.id}">Cancel order</button>`:`<button class="table-action" data-process="${o.id}">Process</button><button class="table-action" data-ship="${o.id}">Shipped</button><button class="table-action" data-deliver="${o.id}">Delivered</button><button class="table-action danger" data-cancel="${o.id}">Cancel</button>`;
+  return `<article class="order-card"><div class="order-card-top"><div><span class="eyebrow">${esc(o.order_no)} ¬∑ ${new Date(o.created_at).toLocaleString('bn-BD')}</span><h3>${esc(o.customer_name)} <small>${esc(o.phone)}</small></h3><p>${esc(o.address)} ${esc(o.area)}</p></div><div class="order-total"><b>${fmt(o.total)}</b><span class="status-pill status-${esc(o.status)}">${statusLabel}</span></div></div><div class="order-items">${(o.items||[]).map(i=>`<span>${esc(i.product_title)} √ó ${i.quantity}</span>`).join('')}</div><div class="order-card-bottom"><span class="payment-summary">${esc(o.payment_method.toUpperCase())} ¬∑ ${esc(o.payment_status)} ${o.transaction_code?`¬∑ Ref ${esc(o.transaction_code)}`:''}</span><div class="order-actions">${o.proof_key?`<button class="table-action" data-proof="${o.id}">Screenshot ‡¶¶‡ßá‡¶ñ‡ßÅ‡¶®</button>`:''}${controls}</div></div>${o.admin_note?`<p class="admin-note">Admin note: ${esc(o.admin_note)}</p>`:''}</article>`;
+}
+function settingsMarkup(){const c=state.config;const fields=[['store_name','Store name'],['tagline','Tagline'],['about','About the Store'],['phone','Call phone'],['whatsapp','WhatsApp number (country code ‡¶∏‡¶π)'],['facebook','Facebook URL'],['instagram','Instagram URL'],['email','Store email'],['address','Store address'],['shipping_fee','Delivery charge (‡ß≥)'],['payment_bkash','bKash merchant/personal number'],['payment_nagad','Nagad number'],['payment_rocket','Rocket number'],['payment_card_url','Card payment secure URL'],['payment_instructions','Payment instruction']];return `<form id="settings-form" class="settings-form"><div class="settings-intro"><span class="eyebrow">CUSTOMIZE STORE</span><h2>‡¶¶‡ßã‡¶ï‡¶æ‡¶®‡ßá‡¶∞ ‡¶§‡¶•‡ßç‡¶Ø ‡¶ì ‡¶™‡ßá‡¶Æ‡ßá‡¶®‡ßç‡¶ü</h2><p>‡¶è‡¶ñ‡¶æ‡¶®‡ßá ‡¶®‡¶Æ‡ßç‡¶¨‡¶∞ ‡¶ì links save ‡¶ï‡¶∞‡¶≤‡ßá storefront-‡¶è ‡¶¶‡ßá‡¶ñ‡¶æ‡¶¨‡ßá‡•§ Payment screenshot admin review ‡¶õ‡¶æ‡¶°‡¶º‡¶æ order confirm ‡¶π‡¶Ø‡¶º ‡¶®‡¶æ‡•§</p></div><div class="settings-grid">${fields.map(([k,l])=>`<label class="${['about','payment_instructions'].includes(k)?'span-2':''}">${l}${['about','payment_instructions'].includes(k)?`<textarea name="${k}" rows="3">${esc(c[k]||'')}</textarea>`:`<input name="${k}" value="${esc(c[k]||'')}" ${k==='shipping_fee'?'type="number" min="0"':''} ${['email'].includes(k)?'type="email"':''}>`}</label>`).join('')}</div><div class="form-error" id="settings-error"></div><button class="button button-dark">Settings save ‡¶ï‡¶∞‡ßÅ‡¶®</button></form>`}
+
+function bindAdminTab(){
+  document.querySelectorAll('[data-admin-tab]').forEach(b=>b.onclick=()=>{state.adminTab=b.dataset.adminTab;renderDashboard()});
+  document.querySelector('#refresh-admin')?.addEventListener('click',renderDashboard);
+  document.querySelector('#report-day')?.addEventListener('change',async e=>{state.daily=await api(`/api/admin/reports?day=${e.target.value}`);document.querySelector('#admin-content').innerHTML=adminTabMarkup();bindAdminTab()});
   document.querySelector('#download-pdf')?.addEventListener('click',downloadReport);
   document.querySelector('#add-product')?.addEventListener('click',()=>productEditor());document.querySelectorAll('[data-edit-product]').forEach(b=>b.onclick=()=>productEditor(state.adminProducts.find(p=>p.id===Number(b.dataset.editProduct))));
   document.querySelector('#add-category')?.addEventListener('click',()=>categoryEditor());document.querySelectorAll('[data-edit-category]').forEach(b=>b.onclick=()=>categoryEditor(state.adminCategories.find(c=>c.id===Number(b.dataset.editCategory))));

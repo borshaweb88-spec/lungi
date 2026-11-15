@@ -1,4 +1,5 @@
 import { createClient } from '@libsql/client/web';
+import { schemaSql } from './schema.js';
 
 const clients = new Map();
 
@@ -80,4 +81,27 @@ export async function ensureProofTable(env) {
     created_at TEXT NOT NULL
   )`).run();
   proofTableReady = true;
+}
+
+// SQL-কে আলাদা আলাদা statement-এ ভাগ করে ('...' এর ভেতরের ; ধরা হয় না)
+export function splitStatements(sql) {
+  const out = []; let cur = ''; let inQuote = false;
+  for (const ch of sql) {
+    if (ch === "'") inQuote = !inQuote;
+    if (ch === ';' && !inQuote) { if (cur.trim()) out.push(cur.trim()); cur = ''; }
+    else cur += ch;
+  }
+  if (cur.trim()) out.push(cur.trim());
+  return out;
+}
+
+let schemaReady = false;
+
+// Turso-তে table না থাকলে প্রথমবার নিজে থেকেই সব table ও শুরুর পণ্য বানায়
+export async function ensureSchema(env) {
+  if (schemaReady) return;
+  const client = getClient(env);
+  const found = await client.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='store_settings'");
+  if (!found.rows.length) await client.batch(splitStatements(schemaSql), 'write');
+  schemaReady = true;
 }

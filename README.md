@@ -15,18 +15,18 @@ npm run db:migrate:turso
 npm run pages:dev
 ```
 
-Cloudflare Pages local preview চালু হবে; `.dev.vars`-এ Turso connection secret এবং admin-এর দুই secret দিন। `npm run dev` শুধু UI দেখায়—Pages Functions/API চালায় না।
+Cloudflare Pages local preview চালু হবে; `.dev.vars`-এ Turso connection secret এবং admin-এর দুই secret দিন। `npm run dev` শুধু UI দেখায়—Pages Functions চালায় না।
 
 ```sh
 npm run build
 ```
 
-Build command: `npm run build`। `nawab-loom-store` Pages project-এ manually deploy command: `npm run pages:deploy` (এটি `wrangler pages deploy dist --project-name=nawab-loom-store` চালায়)।
+Build command: `npm run build`। Pages-এ আগে থেকেই তৈরি `lungi` project-এ manually deploy command: `npm run pages:deploy` (এটি `wrangler pages deploy dist --project-name=lungi` চালায়)।
 
 ## Cloudflare deploy
 
 1. এই folder-টি GitHub repository root করুন, অথবা parent repository ব্যবহার করলে Cloudflare Pages-এর **Root directory** `outputs/saree-lungi-store` দিন। Build command `npm run build`, output directory `dist`।
-2. Turso-তে production database এবং আলাদা preview database তৈরি করুন। Product catalog, orders, admin data এবং payment proof screenshots Turso-তে থাকে।
+2. Turso-তে production database এবং আলাদা preview database তৈরি করুন। প্রথম অনুরোধে table ও শুরুর পণ্য নিজে থেকেই তৈরি হয়; আলাদা R2 লাগে না।
 3. Turso URL ও auth token নিয়ে local terminal-এ schema apply করুন:
 
    ```sh
@@ -35,7 +35,7 @@ Build command: `npm run build`। `nawab-loom-store` Pages project-এ manually 
    ```
 
    Preview database-এ schema দিতে ওই database-এর URL/token বসিয়ে একই command আবার চালান।
-4. **Settings → Variables and Secrets**-এ Production এবং Preview-এর জন্য `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `ADMIN_BOOTSTRAP_KEY`, `ADMIN_SESSION_SECRET` দিন। Production ও Preview-তে তাদের নিজস্ব Turso database URL/token ব্যবহার করুন। Secret source code/GitHub-এ রাখবেন না। PowerShell-এ admin random value বানাতে:
+4. Cloudflare Pages project-এর **Settings → Variables and Secrets**-এ Production এবং Preview-এর জন্য `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `ADMIN_BOOTSTRAP_KEY`, `ADMIN_SESSION_SECRET` দিন। Production ও Preview-তে তাদের নিজস্ব Turso database URL/token ব্যবহার করুন। Secret source code/GitHub-এ রাখবেন না। PowerShell-এ admin random value বানাতে:
 
    ```powershell
    [Convert]::ToHexString([Security.Cryptography.RandomNumberGenerator]::GetBytes(32))
@@ -48,7 +48,7 @@ Build command: `npm run build`। `nawab-loom-store` Pages project-এ manually 
 
 ## Payments and order confirmation
 
-COD order সরাসরি `pending` হিসেবে জমা হয়; admin পরে processing, shipped, delivered বা cancelled করতে পারেন। bKash/Nagad/Rocket/Card-এ customer merchant instructions মেনে payment করে transaction/reference code ও সর্বোচ্চ 5 MB-এর JPG/PNG/WebP screenshot দেয়। Screenshot Turso database-এ private API route দিয়ে সংরক্ষিত থাকে; non-COD order `awaiting_payment_review` হয় এবং admin proof দেখে verify না করা পর্যন্ত confirmed হয় না। Admin payment reject বা order cancel করলে stock ফেরত যোগ হয়।
+COD order সরাসরি `pending` হিসেবে জমা হয়; admin পরে processing, shipped, delivered বা cancelled করতে পারেন। bKash/Nagad/Rocket/Card-এ customer merchant instructions মেনে payment করে transaction/reference code ও সর্বোচ্চ 5 MB-এর JPG/PNG/WebP screenshot দেয়। Screenshot Turso database-এ থাকে; non-COD order `awaiting_payment_review` হয় এবং admin proof দেখে verify না করা পর্যন্ত confirmed হয় না। Admin payment reject বা order cancel করলে stock ফেরত যোগ হয়।
 
 এটি merchant gateway-এর automatic card/wallet charge করে না। Card option secure external payment link + manual proof review সমর্থন করে। Automatic checkout/verification চালু করতে merchant gateway account, live API credentials এবং webhook/domain verification আলাদা করে configure করতে হবে। Credentials এলে gateway integration আলাদা release-এ যোগ করতে হবে।
 
@@ -60,6 +60,6 @@ Demand report-এ নির্বাচিত Dhaka-local date অনুযা�
 
 - Cloudflare HTTPS বাধ্যতামূলক; first-admin secrets set করুন।
 - `#admin` account-এর default password নেই—first-run setup secret আবশ্যক।
-- Payment proofs Turso-তে রাখা হয়; customer API থেকে proof file প্রকাশ করা হয় না।
+- Payment proofs Turso database-এ রাখা হয়; customer API থেকে proof file প্রকাশ করা হয় না।
 - Launch-এর আগে demonstration products বদলান, merchant payment numbers/card URL দিন, store email/phone/social links দিন, delivery fee ঠিক করুন, এবং Cloudflare-এ login endpoint-এর জন্য rate limiting rule দিন।
 - Customer data order delivery-র জন্য সংরক্ষণ হয়; deploy-এর আগে আপনার privacy/return/delivery policy যোগ করুন।
