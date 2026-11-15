@@ -7,3 +7,32 @@
 @media print{.admin-sidebar,.admin-topbar,.report-toolbar,.contact-rail{display:none!important}.admin-layout{display:block}.admin-main{padding:0}.admin-card,.stat-grid article{break-inside:avoid}.stat-grid{grid-template-columns:repeat(3,1fr)}}
 .instruction-card a{color:var(--green);font-weight:700;text-decoration:underline}.pdf-sheet{position:fixed;z-index:-2;left:0;top:0;width:794px;min-height:1123px;padding:56px 58px;background:#fffefa;color:#26342c;box-shadow:none;font-family:'Noto Serif Bengali',serif}.pdf-row{display:grid;grid-template-columns:1fr 65px 115px;gap:12px;padding:9px 4px;border-bottom:1px solid #e6e8e0;font:13px 'Noto Serif Bengali',serif;color:#37483d}.pdf-row b{text-align:right}.pdf-row span:last-child{text-align:right;color:#68756b}
 .pdf-order-info{padding:14px;background:#f2f2eb;font:12px/1.9 'Noto Serif Bengali',serif;color:#48574d}.pdf-total{display:flex;justify-content:space-between;padding:8px 4px;border-bottom:1px solid #e6e8e0;font:12px 'Noto Serif Bengali',serif}.pdf-grand{color:#344b3d;font-size:15px;border-bottom:0}.pdf-footer{position:absolute;bottom:35px;color:#899188;font:10px 'DM Sans',sans-serif}
+
+/* Side contact shortcuts */
+.contact-widget{position:fixed;right:18px;top:42%;z-index:60;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.contact-toggle{display:flex;align-items:center;gap:9px;border:1px solid #d9dfd6;background:#314b3d;color:#fff;padding:11px 14px;box-shadow:0 8px 24px #17261d2b;cursor:pointer;font:500 12px var(--sans)}
+.contact-toggle svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.contact-links{display:grid;gap:8px;justify-items:end}
+.contact-links[hidden]{display:none}
+.contact-links a,.contact-disabled{min-width:142px;display:flex;align-items:center;gap:10px;padding:9px 12px;background:#fffefa;border:1px solid #e0e3dc;color:#344b3d;text-decoration:none;box-shadow:0 5px 18px #17261d18;font:500 11px var(--sans)}
+.contact-links a:hover{background:#f0f2eb;border-color:#b8c5b7}
+.contact-links svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.contact-links .rail-fb svg{fill:currentColor;stroke:none}
+.contact-links .rail-ig svg rect,.contact-links .rail-ig svg circle{fill:none;stroke:currentColor;stroke-width:1.8}
+.contact-links .rail-ig svg circle.icon-fill{fill:currentColor;stroke:none}
+.contact-disabled{opacity:.48;cursor:default}
+.contact-widget .rail-wa{color:#17834e}.contact-widget .rail-fb{color:#1877f2}.contact-widget .rail-ig{color:#c13584}.contact-widget .rail-call{color:#b28a3e}
+.product-page{max-width:1400px;margin:0 auto;padding:28px clamp(18px,5vw,72px) 55px;min-height:65vh}
+.product-back{display:inline-block;margin:0 0 16px;color:#52665a;font-size:11px;text-decoration:none}
+.product-breadcrumb{color:#818a80;font-size:10px;margin-bottom:22px}.product-breadcrumb span{padding:0 8px;color:#b69b64}
+.product-detail-page{grid-template-columns:minmax(0,1.08fr) minmax(340px,.92fr);gap:clamp(28px,6vw,76px);align-items:center;background:transparent}
+.product-detail-page .detail-visual{min-height:540px;height: min(62vw,680px);position:relative}
+.product-detail-page .detail-visual .fabric-art,.product-detail-page .detail-visual>img{width:100%;height:100%;object-fit:cover}
+.product-detail-page .detail-copy{padding:32px 0;max-width:510px}
+.product-detail-page .detail-copy h1{font:500 clamp(28px,3.5vw,46px)/1.25 var(--serif);color:var(--green);margin:13px 0 18px}
+.product-detail-page .detail-price{font-size:22px;color:var(--green);margin:0 0 18px}.product-detail-page .detail-price del{font-size:13px;color:#93978e;margin-left:10px}
+.product-detail-page .detail-description{font-size:12px;line-height:1.9;color:#717b72}.product-detail-page .detail-stock{font-size:11px;color:#577359;margin:19px 0}
+.product-detail-page .qty-control{max-width:100%;padding:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.product-detail-page .detail-actions{display:grid;gap:10px;margin-top:18px}.product-detail-page .pay-note{margin-top:16px;font-size:9px;color:#8b948c}
+.product-page+.site-footer{margin-top:20px}
+@media(max-width:760px){.contact-widget{right:8px;top:auto;bottom:86px}.contact-toggle{padding:10px 12px}.contact-links a,.contact-disabled{min-width:132px;padding:8px 10px}.product-page{padding:18px 17px 38px}.product-detail-page{grid-template-columns:1fr;gap:18px}.product-detail-page .detail-visual{height:88vw;min-height:280px;max-height:470px}.product-detail-page .detail-copy{padding:12px 3px 24px}.product-detail-page .detail-copy h1{font-size:28px}.product-breadcrumb{margin-bottom:15px}}
