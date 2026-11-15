@@ -24,6 +24,8 @@ export async function onRequestPost({ request, env }) {
   try { data = JSON.parse(form.get('order') ?? '{}'); } catch { return error('Order information is invalid'); }
   const name = cleanText(data.name, 100); const phone = cleanText(data.phone, 30);
   const email = cleanText(data.email, 160); const address = cleanText(data.address, 500); const area = cleanText(data.area, 120);
+  const wantsMarketing = data.marketing_opt_in === true;
+  if (wantsMarketing && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return error('অফার পেতে একটি সঠিক ইমেইল ঠিকানা দিন।');
   const method = cleanText(data.payment_method, 20).toLowerCase();
   const txn = cleanText(data.transaction_code, 100);
   if (name.length < 2 || phone.length < 7 || address.length < 8) return error('নাম, সঠিক ফোন নম্বর এবং পূর্ণ ঠিকানা দিন।');
@@ -35,6 +37,9 @@ export async function onRequestPost({ request, env }) {
   }
   if (method !== 'cod' && !txn) return error('পেমেন্টের transaction/reference code লিখুন।');
   if (method !== 'cod') await ensureProofTable(env);
+  if (wantsMarketing) await getDB(env).prepare(`CREATE TABLE IF NOT EXISTS marketing_subscribers (
+    email TEXT PRIMARY KEY COLLATE NOCASE, source TEXT NOT NULL, consent_at INTEGER NOT NULL, unsubscribed_at INTEGER
+  )`).run();
 
   const ids = [...new Set(data.items.map(row => Number(row.id)).filter(id => Number.isInteger(id) && id > 0))];
   if (!ids.length) return error('Cart item is invalid');
@@ -74,6 +79,9 @@ export async function onRequestPost({ request, env }) {
       (order_no, customer_name, phone, email, address, area, payment_method, transaction_code, proof_key, payment_status, status, subtotal, shipping_fee, total, created_at, updated_at)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
       .bind(orderNo, name, phone, email, address, area, method, method === 'cod' ? '' : txn, proofKey, paymentStatus, status, subtotal, shipping, total, now, now)];
+    if (wantsMarketing) statements.push(getDB(env).prepare(`INSERT INTO marketing_subscribers (email, source, consent_at, unsubscribed_at)
+      VALUES (?, 'checkout', ?, NULL) ON CONFLICT(email) DO UPDATE SET source='checkout', consent_at=excluded.consent_at, unsubscribed_at=NULL`)
+      .bind(email.toLowerCase(), Date.now()));
     if (proofBytes) statements.push(getDB(env).prepare('INSERT INTO order_proofs (order_no, content_type, data, created_at) VALUES (?, ?, ?, ?)').bind(orderNo, proof.type, proofBytes, now));
     for (const row of items) {
       statements.push(getDB(env).prepare('INSERT INTO order_items (order_id, product_id, product_title, unit_price, quantity, line_total) VALUES ((SELECT id FROM orders WHERE order_no=?), ?, ?, ?, ?, ?)')

@@ -1,5 +1,6 @@
 import { getDB } from '../../_shared/database.js';
 import { bodyJSON, error, json, safeEquals } from '../../_shared/http.js';
+import { passwordHash } from '../../_shared/auth.js';
 
 const encoder = new TextEncoder();
 const cookieName = '__Host-nawablooms-customer';
@@ -26,6 +27,26 @@ async function ensureTables(env) {
       ip_hash TEXT PRIMARY KEY,
       window_started INTEGER NOT NULL,
       request_count INTEGER NOT NULL
+    )`),
+    db.prepare(`CREATE TABLE IF NOT EXISTS customer_pending_credentials (
+      email TEXT PRIMARY KEY COLLATE NOCASE,
+      password_salt TEXT NOT NULL,
+      password_hash TEXT NOT NULL,
+      marketing_opt_in INTEGER NOT NULL DEFAULT 0
+    )`),
+    db.prepare(`CREATE TABLE IF NOT EXISTS customer_passwords (
+      email TEXT PRIMARY KEY COLLATE NOCASE,
+      password_salt TEXT NOT NULL,
+      password_hash TEXT NOT NULL,
+      failed_attempts INTEGER NOT NULL DEFAULT 0,
+      locked_until INTEGER NOT NULL DEFAULT 0,
+      updated_at INTEGER NOT NULL
+    )`),
+    db.prepare(`CREATE TABLE IF NOT EXISTS marketing_subscribers (
+      email TEXT PRIMARY KEY COLLATE NOCASE,
+      source TEXT NOT NULL,
+      consent_at INTEGER NOT NULL,
+      unsubscribed_at INTEGER
     )`),
   ]);
   tablesReady = true;
@@ -80,8 +101,29 @@ export async function onRequestPost({ request, env }) {
   const db = getDB(env);
   const now = Date.now();
 
+  if (data.action === 'login') {
+    const password = String(data.password || '');
+    if (!password || password.length > 128) return error('ইমেইল ও পাসওয়ার্ড দিন।');
+    const credential = await db.prepare('SELECT password_salt, password_hash, failed_attempts, locked_until FROM customer_passwords WHERE email=?').bind(email).first();
+    if (!credential) return error('ইমেইল বা পাসওয়ার্ড সঠিক নয়।');
+    if (Number(credential.locked_until) > now) return error('অনেকবার ভুল হয়েছে। কিছুক্ষণ পর আবার চেষ্টা করুন।', 429);
+    const valid = safeEquals(credential.password_hash, await passwordHash(password, credential.password_salt));
+    if (!valid) {
+      const attempts = Number(credential.failed_attempts) + 1;
+      await db.prepare('UPDATE customer_passwords SET failed_attempts=?, locked_until=? WHERE email=?')
+        .bind(attempts >= 5 ? 0 : attempts, attempts >= 5 ? now + 15 * 60_000 : 0, email).run();
+      return error('ইমেইল বা পাসওয়ার্ড সঠিক নয়।');
+    }
+    await db.prepare('UPDATE customer_passwords SET failed_attempts=0, locked_until=0, updated_at=? WHERE email=?').bind(now, email).run();
+    const payload = toBase64Url(JSON.stringify({ email, exp: now + 30 * 24 * 60 * 60_000 }));
+    const signature = await hmac(secret, payload);
+    return json({ email }, 200, { 'set-cookie': `${cookieName}=${payload}.${signature}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=2592000` });
+  }
+
   if (data.action === 'request') {
     if (!env.RESEND_API_KEY || !env.CUSTOMER_EMAIL_FROM) return error('ইমেইল কোড পাঠানোর ব্যবস্থা এখনো সেটআপ হয়নি।', 503);
+    const password = String(data.password || '');
+    if (password.length < 8 || password.length > 128) return error('পাসওয়ার্ড অন্তত ৮ অক্ষরের হতে হবে।');
     const previous = await db.prepare('SELECT sent_at FROM customer_email_codes WHERE email=?').bind(email).first();
     if (previous && now - Number(previous.sent_at) < 60_000) return error('নতুন কোড পাঠানোর আগে এক মিনিট অপেক্ষা করুন।', 429);
 
@@ -98,6 +140,12 @@ export async function onRequestPost({ request, env }) {
         ON CONFLICT(ip_hash) DO UPDATE SET window_started=excluded.window_started, request_count=excluded.request_count`)
         .bind(ipHash, windowStarted, count).run();
     }
+
+    const salt = crypto.randomUUID();
+    const hashedPassword = await passwordHash(password, salt);
+    await db.prepare(`INSERT INTO customer_pending_credentials (email, password_salt, password_hash, marketing_opt_in) VALUES (?, ?, ?, ?)
+      ON CONFLICT(email) DO UPDATE SET password_salt=excluded.password_salt, password_hash=excluded.password_hash, marketing_opt_in=excluded.marketing_opt_in`)
+      .bind(email, salt, hashedPassword, data.marketing_opt_in ? 1 : 0).run();
 
     const code = String(crypto.getRandomValues(new Uint32Array(1))[0] % 1_000_000).padStart(6, '0');
     const codeHash = await hmac(secret, `${email}:${code}`);
@@ -117,6 +165,7 @@ export async function onRequestPost({ request, env }) {
     });
     if (!mail.ok) {
       await db.prepare('DELETE FROM customer_email_codes WHERE email=?').bind(email).run();
+      await db.prepare('DELETE FROM customer_pending_credentials WHERE email=?').bind(email).run();
       return error('ইমেইল পাঠানো যায়নি। কিছুক্ষণ পর আবার চেষ্টা করুন।', 502);
     }
     return json({ sent: true });
@@ -136,10 +185,21 @@ export async function onRequestPost({ request, env }) {
     }
     await db.prepare('UPDATE customer_email_codes SET attempts=attempts+1 WHERE email=?').bind(email).run();
     if (!safeEquals(pending.code_hash, await hmac(secret, `${email}:${code}`))) return error('কোডটি সঠিক নয়। আবার দেখুন।');
+    const pendingCredential = await db.prepare('SELECT password_salt, password_hash, marketing_opt_in FROM customer_pending_credentials WHERE email=?').bind(email).first();
+    if (!pendingCredential) return error('রেজিস্ট্রেশনটি মেয়াদোত্তীর্ণ। আবার শুরু করুন।', 410);
     await db.prepare(`INSERT INTO customers (email, verified_at, created_at, last_login_at) VALUES (?, ?, ?, ?)
       ON CONFLICT(email) DO UPDATE SET verified_at=excluded.verified_at, last_login_at=excluded.last_login_at`)
       .bind(email, now, now, now).run();
+    await db.prepare(`INSERT INTO customer_passwords (email, password_salt, password_hash, failed_attempts, locked_until, updated_at)
+      VALUES (?, ?, ?, 0, 0, ?) ON CONFLICT(email) DO UPDATE SET password_salt=excluded.password_salt,
+      password_hash=excluded.password_hash, failed_attempts=0, locked_until=0, updated_at=excluded.updated_at`)
+      .bind(email, pendingCredential.password_salt, pendingCredential.password_hash, now).run();
+    if (Number(pendingCredential.marketing_opt_in)) {
+      await db.prepare(`INSERT INTO marketing_subscribers (email, source, consent_at, unsubscribed_at) VALUES (?, 'account', ?, NULL)
+        ON CONFLICT(email) DO UPDATE SET source='account', consent_at=excluded.consent_at, unsubscribed_at=NULL`).bind(email, now).run();
+    }
     await db.prepare('DELETE FROM customer_email_codes WHERE email=?').bind(email).run();
+    await db.prepare('DELETE FROM customer_pending_credentials WHERE email=?').bind(email).run();
     const payload = toBase64Url(JSON.stringify({ email, exp: now + 30 * 24 * 60 * 60_000 }));
     const signature = await hmac(secret, payload);
     return json({ email }, 200, { 'set-cookie': `${cookieName}=${payload}.${signature}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=2592000` });

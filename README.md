@@ -48,7 +48,26 @@ Build command: `npm run build`। Pages-এ আগে থেকেই তৈর�
 
 ### Customer Gmail sign-in
 
-Mobile bottom bar-এর Login থেকে customer Gmail দিয়ে passwordless register/login করতে পারে। ৬ সংখ্যার email code ১০ মিনিট কার্যকর থাকে; code যাচাই হলেই account verified হয়। Email delivery-এর জন্য Resend account-এ sender domain verify করে Pages-এর **Settings → Variables and Secrets**-এ `RESEND_API_KEY` (secret) এবং `CUSTOMER_EMAIL_FROM` (যেমন `নওয়াব লুম <login@your-verified-domain.com>`) যোগ করুন। `CUSTOMER_SESSION_SECRET` আলাদা secret হিসেবে যোগ করা ভালো; না থাকলে customer session signing-এ `ADMIN_SESSION_SECRET` fallback হয়। Preview ও Production দুটিতেই আলাদা sender/API settings দিন। API key source code বা chat-এ দেবেন না।
+Mobile bottom bar-এর Login থেকে customer Gmail ও password দিয়ে login অথবা register করতে পারে। নতুন account-এর password email verification code দিয়ে নিশ্চিত হয়। Email delivery-এর জন্য Resend account-এ sender domain verify করে Pages-এর **Settings → Variables and Secrets**-এ `RESEND_API_KEY` (secret) এবং `CUSTOMER_EMAIL_FROM` (যেমন `নওয়াব লুম <login@your-verified-domain.com>`) যোগ করুন। `CUSTOMER_SESSION_SECRET` আলাদা secret হিসেবে যোগ করা ভালো; না থাকলে customer session signing-এ `ADMIN_SESSION_SECRET` fallback হয়। Offer/newsletter email কেবল customer স্পষ্টভাবে সম্মতি দিলে `marketing_subscribers`-এ যুক্ত হয়; Admin → Customers থেকে সম্মত address-গুলো CSV export করা যাবে। API key source code বা chat-এ দেবেন না।
+
+### Daily report chatbot and saved sheets
+
+Admin → Report chatbot কোনো LLM/API key ব্যবহার করে না; সাধারণ report rules দিয়ে Dhaka-local দিনের orders, confirmed/rejected/pending status, new verified accounts ও offer subscribers দেখায়। CSV sheet Turso-তে প্রতিদিন সংরক্ষিত হয় এবং Admin থেকে download করা যায়। Cloudflare Workers Cron UTC-তে চলে; Bangladesh midnight-এর জন্য `reports-worker/wrangler.toml`-এ `0 18 * * *` রাখা আছে।
+
+Cron Worker-টি Pages-এর সঙ্গে আলাদা deploy হয়। `DAILY_REPORT_CRON_SECRET` একই random secret হিসেবে Pages project এবং Worker—দুই জায়গায় রাখতে হবে। Pages project name `saree` হলে Pages secret যোগ করুন:
+
+```sh
+npx wrangler pages secret put DAILY_REPORT_CRON_SECRET --project-name=saree
+```
+
+Worker deploy ও তার secret দিন:
+
+```sh
+npm run reports:deploy
+npx wrangler secret put DAILY_REPORT_CRON_SECRET --config reports-worker/wrangler.toml
+```
+
+প্রতিটি secret command-এ একই random secret নিরাপদে paste করুন। Secret GitHub/source code-এ রাখবেন না। Cron চালু হলে Bangladesh time রাত ১২টায় আগের দিনের CSV তৈরি হবে; Cloudflare Cron expression-গুলো UTC সময় ধরে চলে।
 
 ## Payments and order confirmation
 

@@ -190,3 +190,15 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 .admin-layout .quick-action-grid button:nth-child(4) i{color:#ed8b00!important}
 .admin-layout .quick-action-grid button:nth-child(5) i{color:#d14b61!important}
 .admin-layout .quick-action-grid button:nth-child(6) i{color:#526078!important}
+
+/* Customer consent, account directory, and the rule-based daily report helper. */
+.offer-consent{display:flex!important;grid-template-columns:none!important;align-items:center;gap:9px!important;color:#444!important;font-size:14px!important}
+.offer-consent input{width:17px!important;height:17px;accent-color:#5b2bd8}
+.checkout-consent{margin-top:8px}
+.report-assistant{display:grid;gap:16px}.report-assistant>section>p{color:#667085;line-height:1.7}.report-assistant .admin-card-head>span{color:#5b2bd8}
+.report-chat{height:min(42vh,420px);min-height:220px;overflow:auto;display:flex;flex-direction:column;gap:10px;padding:14px;background:#fafafa;border:1px solid #e6e6e6;border-radius:10px}
+.report-chat-message{max-width:min(90%,760px);padding:10px 13px;border-radius:12px;line-height:1.65;white-space:normal}.report-chat-message.bot{align-self:flex-start;background:#fff;border:1px solid #e4e4e4}.report-chat-message.user{align-self:flex-end;background:#f0eaff;color:#382071}
+#report-chat-form{display:grid;grid-template-columns:1fr auto;gap:10px;margin-top:12px}#report-chat-form input{min-width:0;padding:11px 13px;border:1px solid #ddd;background:#fff}
+.report-chat-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.report-sheet-toolbar{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid #eee}.report-sheet-toolbar label{display:grid;gap:6px}.report-sheet-toolbar input{padding:9px;border:1px solid #ddd;background:white}
+.saved-sheet-list{display:grid}.saved-sheet-list>a{display:flex;align-items:center;gap:12px;padding:12px 4px;border-bottom:1px solid #eee;color:#333}.saved-sheet-list>a i{color:#15935a}.saved-sheet-list>a span{flex:1}.saved-sheet-list>a b{color:#5b2bd8;white-space:nowrap}
+@media(max-width:760px){#report-chat-form{grid-template-columns:1fr}.report-sheet-toolbar{align-items:stretch;flex-direction:column}.saved-sheet-list>a{align-items:flex-start;flex-wrap:wrap}.saved-sheet-list>a span{overflow-wrap:anywhere}}

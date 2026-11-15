@@ -1,0 +1,9 @@
+name = "nawab-daily-reports"
+main = "index.js"
+compatibility_date = "2026-11-15"
+
+[triggers]
+crons = ["0 18 * * *"]
+
+[vars]
+REPORTS_SITE_URL = "https://saree-6yu.pages.dev"
