@@ -158,6 +158,8 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 .admin-sidebar-promo>i{color:#555!important}
 .admin-sidebar-promo a,.admin-nav.selected{border:1px solid #d5d5d5!important;background:#fff!important;color:#171717!important}
 .admin-search,.dashboard-table th,.quick-action-grid button{background:#fff!important}
+.settings-form input,.settings-form textarea,.settings-form select{background:#fff!important;color:#171717!important}
+.settings-form label,.settings-form .settings-intro p{color:#333!important}
 .dash-panel,.metric-card,.admin-card,.admin-search,.dashboard-table th,.dashboard-table td,.admin-table th,.admin-table td,.quick-action-grid button,.settings-form input,.settings-form textarea,.settings-form select,.auth-card input{border-color:#e5e5e5!important}
 .admin-layout .metric-icon,.admin-layout .customer-initial,.admin-layout .product-bar i{filter:grayscale(1)}
 .admin-layout .dashboard-status,.admin-layout .status-pill{background:#fff!important;color:#333!important;border:1px solid #ddd}
