@@ -123,3 +123,4 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 #app :is(h1,h2,h3,h4,h5,h6){font-weight:700}
 #app :is(button,.button,.text-button,.nav-link,strong,b,th,label){font-weight:600}
 #app :is(p,small,td,li,input,textarea,select){font-weight:500}
+#app :is(p,span,a,small,label,input,textarea,select,td,th,li,button,strong,b){font-weight:700;-webkit-text-stroke:.12px currentColor}
