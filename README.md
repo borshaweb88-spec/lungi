@@ -63,3 +63,4 @@ Demand report-এ নির্বাচিত Dhaka-local date অনুযা�
 - Payment proofs Turso database-এ রাখা হয়; customer API থেকে proof file প্রকাশ করা হয় না।
 - Launch-এর আগে demonstration products বদলান, merchant payment numbers/card URL দিন, store email/phone/social links দিন, delivery fee ঠিক করুন, এবং Cloudflare-এ login endpoint-এর জন্য rate limiting rule দিন।
 - Customer data order delivery-র জন্য সংরক্ষণ হয়; deploy-এর আগে আপনার privacy/return/delivery policy যোগ করুন।
+
