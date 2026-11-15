@@ -2,13 +2,6 @@ name = "nawab-loom-store"
 compatibility_date = "2026-11-15"
 pages_build_output_dir = "./dist"
 
-[[d1_databases]]
-binding = "DB"
-database_name = "nawab-loom-store"
-database_id = "00000000-0000-0000-0000-000000000000"
-preview_database_id = "local-nawab-loom-store"
-migrations_dir = "migrations"
-
 [[r2_buckets]]
 binding = "PROOFS"
 bucket_name = "nawab-loom-payment-proofs"
@@ -16,12 +9,6 @@ preview_bucket_name = "nawab-loom-payment-proofs-local"
 
 # Keep Git/PR preview deployments isolated from production orders and proofs.
 [env.preview]
-
-[[env.preview.d1_databases]]
-binding = "DB"
-database_name = "nawab-loom-store-preview"
-database_id = "00000000-0000-0000-0000-000000000001"
-migrations_dir = "migrations"
 
 [[env.preview.r2_buckets]]
 binding = "PROOFS"

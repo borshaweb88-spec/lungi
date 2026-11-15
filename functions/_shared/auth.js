@@ -1,3 +1,4 @@
+import { getDB } from './database.js';
 import { error } from './http.js';
 
 const enc = new TextEncoder();
@@ -43,7 +44,7 @@ export async function currentAdmin(request, env) {
     const decoded = atob(data.replaceAll('-', '+').replaceAll('_', '/') + '='.repeat((4 - data.length % 4) % 4));
     const payload = JSON.parse(decoded);
     if (!payload.email || payload.exp < Date.now()) return null;
-    return await env.DB.prepare('SELECT id, email FROM admins WHERE email = ?').bind(payload.email).first();
+    return await getDB(env).prepare('SELECT id, email FROM admins WHERE email = ?').bind(payload.email).first();
   } catch { return null; }
 }
 

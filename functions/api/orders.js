@@ -1,3 +1,4 @@
+import { getDB } from '../_shared/database.js';
 import { json, error, cleanText, money } from '../_shared/http.js';
 
 const methods = new Set(['cod', 'bkash', 'nagad', 'rocket', 'card']);
@@ -24,7 +25,7 @@ export async function onRequestPost({ request, env }) {
 
   const ids = [...new Set(data.items.map(row => Number(row.id)).filter(id => Number.isInteger(id) && id > 0))];
   if (!ids.length) return error('Cart item is invalid');
-  const rows = await env.DB.prepare(`SELECT id, title, price, stock FROM products WHERE active = 1 AND id IN (${ids.map(() => '?').join(',')})`).bind(...ids).all();
+  const rows = await getDB(env).prepare(`SELECT id, title, price, stock FROM products WHERE active = 1 AND id IN (${ids.map(() => '?').join(',')})`).bind(...ids).all();
   const catalog = new Map((rows.results ?? []).map(row => [row.id, row]));
   const itemMap = new Map();
   for (const row of data.items) {
@@ -36,7 +37,7 @@ export async function onRequestPost({ request, env }) {
   const items=[...itemMap.values()];
   if(items.some(row=>row.quantity>row.stock)) return error('একটি পণ্য আর মজুতে নেই বা পরিমাণ মজুতের বেশি। Cart আপডেট করে আবার চেষ্টা করুন।',409);
   const subtotal = items.reduce((sum, row) => sum + row.lineTotal, 0);
-  const setting = await env.DB.prepare("SELECT value FROM store_settings WHERE key='shipping_fee'").first();
+  const setting = await getDB(env).prepare("SELECT value FROM store_settings WHERE key='shipping_fee'").first();
   const shipping = money(setting?.value || 0);
   const total = subtotal + shipping;
   let proofKey = '';
@@ -49,26 +50,26 @@ export async function onRequestPost({ request, env }) {
   const status = method === 'cod' ? 'pending' : 'awaiting_payment_review';
   const paymentStatus = method === 'cod' ? 'due_on_delivery' : 'review_pending';
   const now = new Date().toISOString();
-  const reservation=await env.DB.batch(items.map(row=>env.DB.prepare('UPDATE products SET stock=stock-?, updated_at=? WHERE id=? AND active=1 AND stock>=?').bind(row.quantity,now,row.id,row.quantity)));
+  const reservation=await getDB(env).batch(items.map(row=>getDB(env).prepare('UPDATE products SET stock=stock-?, updated_at=? WHERE id=? AND active=1 AND stock>=?').bind(row.quantity,now,row.id,row.quantity)));
   if(reservation.some(result=>result.meta.changes!==1)){
-    const release=items.map((row,i)=>reservation[i]?.meta.changes===1?env.DB.prepare('UPDATE products SET stock=stock+?, updated_at=? WHERE id=?').bind(row.quantity,now,row.id):null).filter(Boolean);
-    if(release.length) await env.DB.batch(release);
+    const release=items.map((row,i)=>reservation[i]?.meta.changes===1?getDB(env).prepare('UPDATE products SET stock=stock+?, updated_at=? WHERE id=?').bind(row.quantity,now,row.id):null).filter(Boolean);
+    if(release.length) await getDB(env).batch(release);
     if(proofKey) await env.PROOFS.delete(proofKey);
     return error('স্টক পরিবর্তন হয়েছে। Cart refresh করে আবার চেষ্টা করুন।',409);
   }
   try {
-    const statements=[env.DB.prepare(`INSERT INTO orders
+    const statements=[getDB(env).prepare(`INSERT INTO orders
       (order_no, customer_name, phone, email, address, area, payment_method, transaction_code, proof_key, payment_status, status, subtotal, shipping_fee, total, created_at, updated_at)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
       .bind(orderNo, name, phone, email, address, area, method, method === 'cod' ? '' : txn, proofKey, paymentStatus, status, subtotal, shipping, total, now, now)];
     for (const row of items) {
-      statements.push(env.DB.prepare('INSERT INTO order_items (order_id, product_id, product_title, unit_price, quantity, line_total) VALUES ((SELECT id FROM orders WHERE order_no=?), ?, ?, ?, ?, ?)')
+      statements.push(getDB(env).prepare('INSERT INTO order_items (order_id, product_id, product_title, unit_price, quantity, line_total) VALUES ((SELECT id FROM orders WHERE order_no=?), ?, ?, ?, ?, ?)')
         .bind(orderNo,row.id,row.title,row.price,row.quantity,row.lineTotal));
     }
-    await env.DB.batch(statements);
+    await getDB(env).batch(statements);
     return json({ order_no: orderNo, status, payment_status: paymentStatus, subtotal, shipping_fee: shipping, total }, 201);
   } catch (e) {
-    await env.DB.batch(items.map(row=>env.DB.prepare('UPDATE products SET stock=stock+?, updated_at=? WHERE id=?').bind(row.quantity,now,row.id)));
+    await getDB(env).batch(items.map(row=>getDB(env).prepare('UPDATE products SET stock=stock+?, updated_at=? WHERE id=?').bind(row.quantity,now,row.id)));
     if (proofKey) await env.PROOFS.delete(proofKey);
     return error('অর্ডার save হয়নি। আবার চেষ্টা করুন।', 500);
   }

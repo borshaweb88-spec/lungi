@@ -1,3 +1,4 @@
+import { getDB } from '../../../_shared/database.js';
 import { json, error, bodyJSON, cleanText, money } from '../../../_shared/http.js';
 import { requireAdmin, guardOrigin } from '../../../_shared/auth.js';
 
@@ -12,7 +13,7 @@ export async function onRequestPut({ request, env, params }) {
   if (!title || !slug || !Number.isInteger(category) || !Number.isInteger(stock) || stock < 0) return error('পণ্যের তথ্য ঠিক করে দিন।');
   if (image && !/^https:\/\//i.test(image)) return error('Product image-এর secure HTTPS URL দিন।');
   try {
-    const r = await env.DB.prepare('UPDATE products SET title=?,slug=?,category_id=?,description=?,price=?,compare_at=?,stock=?,image_url=?,featured=?,active=?,updated_at=? WHERE id=?')
+    const r = await getDB(env).prepare('UPDATE products SET title=?,slug=?,category_id=?,description=?,price=?,compare_at=?,stock=?,image_url=?,featured=?,active=?,updated_at=? WHERE id=?')
       .bind(title,slug,category,description,price,compare,stock,image,Number(Boolean(b.featured)),Number(Boolean(b.active)),new Date().toISOString(),id).run();
     if (!r.meta.changes) return error('Product not found',404);
     return json({ ok: true });
@@ -22,6 +23,6 @@ export async function onRequestPut({ request, env, params }) {
 export async function onRequestDelete({ request, env, params }) {
   const blocked = await guardOrigin(request); if (blocked) return blocked;
   const admin = await requireAdmin(request, env); if (admin instanceof Response) return admin;
-  await env.DB.prepare('UPDATE products SET active=0, updated_at=? WHERE id=?').bind(new Date().toISOString(),Number(params.id)).run();
+  await getDB(env).prepare('UPDATE products SET active=0, updated_at=? WHERE id=?').bind(new Date().toISOString(),Number(params.id)).run();
   return json({ ok: true });
 }

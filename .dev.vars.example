@@ -1,2 +1,4 @@
 ADMIN_BOOTSTRAP_KEY=replace-with-a-long-random-local-secret
 ADMIN_SESSION_SECRET=replace-with-a-different-long-random-local-secret
+TURSO_DATABASE_URL=libsql://your-database-name-your-org.turso.io
+TURSO_AUTH_TOKEN=replace-with-your-turso-auth-token

@@ -16,6 +16,6 @@
 
 ## Deployment assumptions
 - Cloudflare Pages hosts the static storefront and Pages Functions API.
-- Cloudflare D1 stores catalog, settings, orders, and admin accounts. Cloudflare R2 privately stores payment proof screenshots.
+- Turso (libSQL) stores catalog, settings, orders, and admin accounts. Cloudflare R2 privately stores payment proof screenshots.
 - Payment accounts and contact/social links must be set by the store owner in Admin Settings. Card/mobile wallet transfers are collected as proof and manually verified in this implementation; automated card/bKash/Nagad/Rocket checkout requires a merchant gateway contract and credentials.
 - The initial catalog contains demonstration entries that should be replaced with the store's real products and photos before launch.

@@ -3,14 +3,19 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "pages:dev": "wrangler pages dev dist"
+    "pages:dev": "wrangler pages dev dist",
+    "pages:deploy": "wrangler pages deploy dist --project-name=lungi",
+    "db:migrate:turso": "node scripts/migrate-turso.js"
   },
   "dependencies": {
+    "@libsql/client": "^0.18.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.2"
   },
