@@ -1,4 +1,7 @@
 ADMIN_BOOTSTRAP_KEY=replace-with-a-long-random-local-secret
 ADMIN_SESSION_SECRET=replace-with-a-different-long-random-local-secret
+CUSTOMER_SESSION_SECRET=replace-with-another-long-random-local-secret
+RESEND_API_KEY=re_your_resend_api_key
+CUSTOMER_EMAIL_FROM=Nawab Loom <login@your-verified-domain.com>
 TURSO_DATABASE_URL=libsql://your-database-name-your-org.turso.io
 TURSO_AUTH_TOKEN=replace-with-your-turso-auth-token

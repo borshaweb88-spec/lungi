@@ -163,3 +163,30 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 .admin-layout .dashboard-status,.admin-layout .status-pill{background:#fff!important;color:#333!important;border:1px solid #ddd}
 .admin-layout .dash-panel-head h2 i,.admin-layout .dash-panel-head button,.admin-layout .quick-action-grid button i{color:#333!important}
 .tracking-form{display:grid;gap:14px}.tracking-form label{display:grid;gap:6px;color:#333}.tracking-form input{width:100%;padding:12px;border:1px solid #ddd;background:#fff;color:#111}.tracking-form #tracking-result{display:grid;gap:7px;margin:0;color:#444}.tracking-form #tracking-result:empty{display:none}
+
+/* Restore the dashboard's color accents while keeping its panels white. */
+.admin-nav:hover{background:#f4f1ff!important;color:#5825d8!important}
+.admin-nav.selected{background:linear-gradient(100deg,#4f22d8,#7136ef)!important;color:#fff!important;border-color:transparent!important;box-shadow:0 5px 12px #5425d833!important}
+.admin-nav.selected i{color:#fff!important}
+.admin-sidebar-promo a{background:#5427d9!important;color:#fff!important}
+.admin-layout .metric-icon,.admin-layout .customer-initial,.admin-layout .product-bar i{filter:none!important}
+.admin-layout .metric-purple .metric-icon{background:#efe8ff!important;color:#632be0!important}
+.admin-layout .metric-green .metric-icon{background:#e1f7ef!important;color:#07966c!important}
+.admin-layout .metric-blue .metric-icon{background:#e4f0ff!important;color:#1674ea!important}
+.admin-layout .metric-orange .metric-icon{background:#fff2df!important;color:#ed8b00!important}
+.admin-layout .customer-initial{background:#dff7f2;color:#079b8b}
+.admin-layout .customer-initial-1{background:#ffe6e8;color:#d14b61}
+.admin-layout .customer-initial-2{background:#e5f4db;color:#4d9a39}
+.admin-layout .customer-initial-3{background:#fff1d6;color:#cb8b18}
+.admin-layout .customer-initial-4{background:#f3e5ff;color:#9637d0}
+.admin-layout .product-bar i{background:linear-gradient(90deg,#4f22d8,#9a65ff)!important}
+@media(max-width:760px){.contact-widget{right:12px;bottom:calc(100px + env(safe-area-inset-bottom));top:auto}.mobile-bottom-nav .bottom-home i{margin-top:-31px}}
+@media(max-width:760px){#app .mobile-bottom-nav>a,#app .mobile-bottom-nav>button,#app .mobile-bottom-nav span{font-size:13px!important}}
+.admin-layout .dash-panel-head h2 i{color:#172033!important}
+.admin-layout .dash-panel-head button{color:#5a25d7!important}
+.admin-layout .quick-action-grid button:nth-child(1) i{color:#632be0!important}
+.admin-layout .quick-action-grid button:nth-child(2) i{color:#1687e8!important}
+.admin-layout .quick-action-grid button:nth-child(3) i{color:#16a06d!important}
+.admin-layout .quick-action-grid button:nth-child(4) i{color:#ed8b00!important}
+.admin-layout .quick-action-grid button:nth-child(5) i{color:#d14b61!important}
+.admin-layout .quick-action-grid button:nth-child(6) i{color:#526078!important}

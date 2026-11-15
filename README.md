@@ -46,6 +46,10 @@ Build command: `npm run build`। Pages-এ আগে থেকেই তৈর�
 6. Live site-এ `/#admin` খুলে bootstrap key দিয়ে প্রথম admin email/password তৈরি করুন। Password অন্তত 12 অক্ষরের হতে হবে। Account তৈরি হলে bootstrap endpoint বন্ধ হয়ে যায়।
 7. Admin → Store settings-এ brand/contact/social link, delivery fee, bKash/Nagad/Rocket নম্বর ও card payment link বসান। Admin → Products-এ sample catalog-কে real product name, ছবি URL, price ও stock দিয়ে বদলান।
 
+### Customer Gmail sign-in
+
+Mobile bottom bar-এর Login থেকে customer Gmail দিয়ে passwordless register/login করতে পারে। ৬ সংখ্যার email code ১০ মিনিট কার্যকর থাকে; code যাচাই হলেই account verified হয়। Email delivery-এর জন্য Resend account-এ sender domain verify করে Pages-এর **Settings → Variables and Secrets**-এ `RESEND_API_KEY` (secret) এবং `CUSTOMER_EMAIL_FROM` (যেমন `নওয়াব লুম <login@your-verified-domain.com>`) যোগ করুন। `CUSTOMER_SESSION_SECRET` আলাদা secret হিসেবে যোগ করা ভালো; না থাকলে customer session signing-এ `ADMIN_SESSION_SECRET` fallback হয়। Preview ও Production দুটিতেই আলাদা sender/API settings দিন। API key source code বা chat-এ দেবেন না।
+
 ## Payments and order confirmation
 
 COD order সরাসরি `pending` হিসেবে জমা হয়; admin পরে processing, shipped, delivered বা cancelled করতে পারেন। bKash/Nagad/Rocket/Card-এ customer merchant instructions মেনে payment করে transaction/reference code ও সর্বোচ্চ 5 MB-এর JPG/PNG/WebP screenshot দেয়। Screenshot Turso database-এ থাকে; non-COD order `awaiting_payment_review` হয় এবং admin proof দেখে verify না করা পর্যন্ত confirmed হয় না। Admin payment reject বা order cancel করলে stock ফেরত যোগ হয়।
