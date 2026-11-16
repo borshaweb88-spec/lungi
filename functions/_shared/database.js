@@ -71,6 +71,33 @@ export function getDB(env) {
 
 let proofTableReady = false;
 let reviewTableReady = false;
+let productDeleteSchemaReady = false;
+
+export async function ensureProductDeleteSchema(env) {
+  if (productDeleteSchemaReady) return;
+  const db=getDB(env);
+  const columns=await db.prepare('PRAGMA table_info(order_items)').all();
+  const productId=columns.results?.find(column=>column.name==='product_id');
+  if(productId?.notnull){
+    await db.batch([
+      db.prepare(`CREATE TABLE order_items_new (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        order_id INTEGER NOT NULL REFERENCES orders(id) ON DELETE CASCADE,
+        product_id INTEGER REFERENCES products(id) ON DELETE SET NULL,
+        product_title TEXT NOT NULL,
+        unit_price INTEGER NOT NULL,
+        quantity INTEGER NOT NULL CHECK(quantity > 0),
+        line_total INTEGER NOT NULL
+      )`),
+      db.prepare(`INSERT INTO order_items_new (id,order_id,product_id,product_title,unit_price,quantity,line_total)
+        SELECT id,order_id,product_id,product_title,unit_price,quantity,line_total FROM order_items`),
+      db.prepare('DROP TABLE order_items'),
+      db.prepare('ALTER TABLE order_items_new RENAME TO order_items'),
+      db.prepare('CREATE INDEX IF NOT EXISTS idx_order_items_product ON order_items(product_id)'),
+    ]);
+  }
+  productDeleteSchemaReady=true;
+}
 
 export async function ensureReviewTable(env) {
   if (reviewTableReady) return;

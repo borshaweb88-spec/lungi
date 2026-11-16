@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS orders (
 CREATE TABLE IF NOT EXISTS order_items (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   order_id INTEGER NOT NULL REFERENCES orders(id) ON DELETE CASCADE,
-  product_id INTEGER NOT NULL REFERENCES products(id),
+  product_id INTEGER REFERENCES products(id) ON DELETE SET NULL,
   product_title TEXT NOT NULL,
   unit_price INTEGER NOT NULL,
   quantity INTEGER NOT NULL CHECK(quantity > 0),

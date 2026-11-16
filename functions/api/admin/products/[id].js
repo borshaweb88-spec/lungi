@@ -2,6 +2,7 @@ import { getDB } from '../../../_shared/database.js';
 import { json, error, bodyJSON, cleanText, money } from '../../../_shared/http.js';
 import { requireAdmin, guardOrigin } from '../../../_shared/auth.js';
 import { cleanProductImage } from '../../../_shared/product-image.js';
+import { ensureProductDeleteSchema } from '../../../_shared/database.js';
 
 export async function onRequestPut({ request, env, params }) {
   const blocked = await guardOrigin(request); if (blocked) return blocked;
@@ -24,6 +25,11 @@ export async function onRequestPut({ request, env, params }) {
 export async function onRequestDelete({ request, env, params }) {
   const blocked = await guardOrigin(request); if (blocked) return blocked;
   const admin = await requireAdmin(request, env); if (admin instanceof Response) return admin;
-  await getDB(env).prepare('UPDATE products SET active=0, updated_at=? WHERE id=?').bind(new Date().toISOString(),Number(params.id)).run();
-  return json({ ok: true });
+  const id=Number(params.id);if(!Number.isInteger(id)||id<1)return error('পণ্যের তথ্য সঠিক নয়।');
+  try{
+    await ensureProductDeleteSchema(env);
+    const result=await getDB(env).prepare('DELETE FROM products WHERE id=?').bind(id).run();
+    if(!result.meta.changes)return error('পণ্যটি পাওয়া যায়নি।',404);
+    return json({ ok:true,deleted:true });
+  }catch{return error('পণ্যটি delete করা যায়নি। পুরনো order history অক্ষত রেখে আবার চেষ্টা করুন।',409)}
 }
