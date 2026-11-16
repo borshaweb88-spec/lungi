@@ -70,6 +70,20 @@ export function getDB(env) {
 }
 
 let proofTableReady = false;
+let reviewTableReady = false;
+
+export async function ensureReviewTable(env) {
+  if (reviewTableReady) return;
+  await getDB(env).prepare(`CREATE TABLE IF NOT EXISTS customer_reviews (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    customer_name TEXT NOT NULL,
+    rating INTEGER NOT NULL CHECK(rating BETWEEN 1 AND 5),
+    review_text TEXT NOT NULL,
+    status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('pending','approved','rejected')),
+    created_at TEXT NOT NULL
+  )`).run();
+  reviewTableReady = true;
+}
 
 // Payment screenshot Turso database-এ রাখার জন্য table (প্রথমবার নিজে থেকেই তৈরি হয়)
 export async function ensureProofTable(env) {
