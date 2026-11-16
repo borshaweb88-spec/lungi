@@ -258,10 +258,11 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 .review-card>b{margin-top:auto;color:#171a18;font-size:14px}
 .review-stars{display:block;color:#b88628;font-size:17px;letter-spacing:2px}
 .review-empty{width:min(600px,90vw);margin:36px auto;text-align:center;color:#59615b}
-.review-track:has(.review-group){animation:review-marquee 48s linear infinite}
+.review-track:has(.review-group){animation:review-marquee 28s linear infinite}
 .review-viewport:hover .review-track,.review-viewport:focus-within .review-track{animation-play-state:paused}
 @keyframes review-marquee{to{transform:translateX(-50%)}}
 .review-form{width:min(680px,calc(100% - 36px));margin:36px auto 0;display:grid;gap:13px;padding:22px;border:1px solid #e6e8e5;border-radius:12px;background:#fff}
+.review-form[hidden]{display:none}
 .review-form h3{margin:0;color:#171a18;font:600 21px var(--serif)}
 .review-form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .review-form label{display:grid;gap:6px;color:#303732;font-size:14px;font-weight:600}
@@ -278,7 +279,7 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 .review-admin-head>div{display:grid;gap:4px}
 .review-admin-list p{line-height:1.7;color:#303732}
 .review-admin-list>article>small{display:block;color:#667085;margin:10px 0}
-@media(max-width:760px){.reviews-section{padding:44px 0 50px}.review-card{width:min(300px,82vw);padding:16px}.review-track{min-height:164px}.review-group{gap:12px;padding-right:12px}.review-track:has(.review-group){animation-duration:55s}.review-form{padding:17px}.review-form-row{grid-template-columns:1fr}.review-admin-list{grid-template-columns:1fr}}
+@media(max-width:760px){.reviews-section{padding:44px 0 50px}.review-card{width:min(300px,82vw);padding:16px}.review-track{min-height:164px}.review-group{gap:12px;padding-right:12px}.review-track:has(.review-group){animation-duration:34s}.review-form{padding:17px}.review-form-row{grid-template-columns:1fr}.review-admin-list{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.review-track:has(.review-group){animation:none}.review-viewport{overflow-x:auto;mask-image:none}}
 #app:has(#modal-root:not(:empty)) .contact-widget{display:none}
 .editor-form label{color:#222!important}
