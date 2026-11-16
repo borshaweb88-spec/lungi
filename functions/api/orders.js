@@ -9,10 +9,10 @@ export async function onRequestGet({ request, env }) {
   const orderNo = cleanText(url.searchParams.get('order_no'), 40).toUpperCase();
   const phone = cleanText(url.searchParams.get('phone'), 30).replace(/\D/g, '');
   if (!orderNo || phone.length < 7) return error('অর্ডার নম্বর ও ফোন নম্বর দিন।');
-  const order = await getDB(env).prepare(`SELECT order_no, phone, status, payment_status, total, created_at
+  const order = await getDB(env).prepare(`SELECT order_no, phone, area, status, payment_status, subtotal, shipping_fee, total, created_at
     FROM orders WHERE order_no=?`).bind(orderNo).first();
   if (!order || order.phone.replace(/\D/g, '') !== phone) return error('এই অর্ডারের তথ্য মেলেনি।', 404);
-  const { results = [] } = await getDB(env).prepare(`SELECT product_title, quantity FROM order_items
+  const { results = [] } = await getDB(env).prepare(`SELECT product_title, unit_price, quantity, line_total FROM order_items
     WHERE order_id=(SELECT id FROM orders WHERE order_no=?)`).bind(orderNo).all();
   return json({ order: { ...order, items: results } });
 }
@@ -24,6 +24,8 @@ export async function onRequestPost({ request, env }) {
   try { data = JSON.parse(form.get('order') ?? '{}'); } catch { return error('Order information is invalid'); }
   const name = cleanText(data.name, 100); const phone = cleanText(data.phone, 30);
   const email = cleanText(data.email, 160); const address = cleanText(data.address, 500); const area = cleanText(data.area, 120);
+  const deliveryZone = cleanText(data.delivery_zone, 30);
+  if (!['inside_dhaka','outside_dhaka'].includes(deliveryZone)) return error('ঢাকার ভিতরে বা বাইরে delivery area নির্বাচন করুন।');
   const wantsMarketing = data.marketing_opt_in === true;
   if (wantsMarketing && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return error('অফার পেতে একটি সঠিক ইমেইল ঠিকানা দিন।');
   const method = cleanText(data.payment_method, 20).toLowerCase();
@@ -55,9 +57,12 @@ export async function onRequestPost({ request, env }) {
   const items=[...itemMap.values()];
   if(items.some(row=>row.quantity>row.stock)) return error('একটি পণ্য আর মজুতে নেই বা পরিমাণ মজুতের বেশি। Cart আপডেট করে আবার চেষ্টা করুন।',409);
   const subtotal = items.reduce((sum, row) => sum + row.lineTotal, 0);
-  const setting = await getDB(env).prepare("SELECT value FROM store_settings WHERE key='shipping_fee'").first();
-  const shipping = money(setting?.value || 0);
+  const shippingSettings = await getDB(env).prepare("SELECT key,value FROM store_settings WHERE key IN ('shipping_fee','shipping_inside_dhaka','shipping_outside_dhaka')").all();
+  const fees=Object.fromEntries((shippingSettings.results||[]).map(row=>[row.key,row.value]));
+  const feeValue=deliveryZone==='inside_dhaka'?(fees.shipping_inside_dhaka??fees.shipping_fee??80):(fees.shipping_outside_dhaka??150);
+  const shipping = money(feeValue);
   const total = subtotal + shipping;
+  const orderArea = `${deliveryZone==='inside_dhaka'?'ঢাকার ভিতরে':'ঢাকার বাইরে'}${area?` · ${area}`:''}`;
   let proofKey = '';
   const orderNo = `NL${new Date().toISOString().slice(2,10).replaceAll('-', '')}${crypto.randomUUID().slice(0, 6).toUpperCase()}`;
   let proofBytes = null;
@@ -78,7 +83,7 @@ export async function onRequestPost({ request, env }) {
     const statements=[getDB(env).prepare(`INSERT INTO orders
       (order_no, customer_name, phone, email, address, area, payment_method, transaction_code, proof_key, payment_status, status, subtotal, shipping_fee, total, created_at, updated_at)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
-      .bind(orderNo, name, phone, email, address, area, method, method === 'cod' ? '' : txn, proofKey, paymentStatus, status, subtotal, shipping, total, now, now)];
+      .bind(orderNo, name, phone, email, address, orderArea, method, method === 'cod' ? '' : txn, proofKey, paymentStatus, status, subtotal, shipping, total, now, now)];
     if (wantsMarketing) statements.push(getDB(env).prepare(`INSERT INTO marketing_subscribers (email, source, consent_at, unsubscribed_at)
       VALUES (?, 'checkout', ?, NULL) ON CONFLICT(email) DO UPDATE SET source='checkout', consent_at=excluded.consent_at, unsubscribed_at=NULL`)
       .bind(email.toLowerCase(), Date.now()));
@@ -88,7 +93,7 @@ export async function onRequestPost({ request, env }) {
         .bind(orderNo,row.id,row.title,row.price,row.quantity,row.lineTotal));
     }
     await getDB(env).batch(statements);
-    return json({ order_no: orderNo, status, payment_status: paymentStatus, subtotal, shipping_fee: shipping, total }, 201);
+    return json({ order_no: orderNo, status, payment_status: paymentStatus, name, phone, email, address, area:orderArea, payment_method:method, subtotal, shipping_fee: shipping, total, items:items.map(row=>({product_title:row.title,unit_price:row.price,quantity:row.quantity,line_total:row.lineTotal})) }, 201);
   } catch (e) {
     await getDB(env).batch(items.map(row=>getDB(env).prepare('UPDATE products SET stock=stock+?, updated_at=? WHERE id=?').bind(row.quantity,now,row.id)));
     return error('অর্ডার save হয়নি। আবার চেষ্টা করুন।', 500);
