@@ -80,8 +80,17 @@ export async function ensureReviewTable(env) {
     rating INTEGER NOT NULL CHECK(rating BETWEEN 1 AND 5),
     review_text TEXT NOT NULL,
     status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('pending','approved','rejected')),
+    is_demo INTEGER NOT NULL DEFAULT 0,
     created_at TEXT NOT NULL
   )`).run();
+  const columns=await getDB(env).prepare('PRAGMA table_info(customer_reviews)').all();
+  if(!(columns.results||[]).some(column=>column.name==='is_demo')) await getDB(env).prepare('ALTER TABLE customer_reviews ADD COLUMN is_demo INTEGER NOT NULL DEFAULT 0').run();
+  const count=await getDB(env).prepare('SELECT COUNT(*) AS total FROM customer_reviews').first();
+  if(Number(count?.total||0)===0) await getDB(env).batch([
+    getDB(env).prepare("INSERT OR IGNORE INTO customer_reviews (id,customer_name,rating,review_text,status,is_demo,created_at) VALUES (-1,'নমুনা ক্রেতা ১',5,'ডেমো রিভিউ: শাড়ির কাপড় নরম, নকশা সুন্দর এবং পরতে আরামদায়ক।','approved',1,?)").bind(new Date().toISOString()),
+    getDB(env).prepare("INSERT OR IGNORE INTO customer_reviews (id,customer_name,rating,review_text,status,is_demo,created_at) VALUES (-2,'নমুনা ক্রেতা ২',5,'ডেমো রিভিউ: লুঙ্গির কাপড় আরামদায়ক, রং ও বুনন ভালো লেগেছে।','approved',1,?)").bind(new Date(Date.now()-86400000).toISOString()),
+    getDB(env).prepare("INSERT OR IGNORE INTO customer_reviews (id,customer_name,rating,review_text,status,is_demo,created_at) VALUES (-3,'নমুনা ক্রেতা ৩',4,'ডেমো রিভিউ: অর্ডার করা পণ্য সুন্দরভাবে প্যাক করা অবস্থায় পেয়েছি।','approved',1,?)").bind(new Date(Date.now()-172800000).toISOString()),
+  ]);
   reviewTableReady = true;
 }
 

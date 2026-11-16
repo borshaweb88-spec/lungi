@@ -4,7 +4,7 @@ import { guardOrigin } from '../_shared/auth.js';
 
 export async function onRequestGet({ env }) {
   await ensureReviewTable(env);
-  const { results = [] } = await getDB(env).prepare(`SELECT id, customer_name, rating, review_text, created_at
+  const { results = [] } = await getDB(env).prepare(`SELECT id, customer_name, rating, review_text, is_demo, created_at
     FROM customer_reviews WHERE status='approved' ORDER BY created_at DESC LIMIT 40`).all();
   return json({ reviews: results });
 }

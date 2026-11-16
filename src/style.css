@@ -269,6 +269,9 @@ footer.store-footer{background:#fff;color:#111;padding:0 clamp(24px,6vw,96px) 26
 .review-form textarea{resize:vertical;min-height:80px}
 .review-form>small{color:#606860;font-size:13px}
 .review-form .button{justify-self:start}
+.review-write-link{margin-top:14px;text-decoration:none}
+.review-demo-badge{display:inline-block;margin-left:5px;padding:3px 7px;border-radius:12px;background:#fff1d6;color:#76510b;font:600 11px var(--sans);letter-spacing:0}
+.review-card .review-demo-badge{align-self:flex-start;margin:0 0 5px}
 .review-admin-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .review-admin-list .admin-card{margin:0}
 .review-admin-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
